@@ -8,10 +8,10 @@
 
 <div class="publication-item">
   {% if post.citation %}
-    <p class="publication-citation">{{ post.citation }}</p>
+    <p class="publication-citation"><span class="pub-number">{{ include.index }}.</span> {{ post.citation }}</p>
   {% else %}
     <p class="publication-citation">
-      {{ title }}
+      <span class="pub-number">{{ include.index }}.</span> {{ title }}
       {% if post.venue %} <i>{{ post.venue }}</i>{% endif %}
       {% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
     </p>

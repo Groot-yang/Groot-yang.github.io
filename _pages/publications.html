@@ -15,6 +15,7 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    {% assign pub_counter = 0 %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
@@ -23,12 +24,13 @@ author_profile: true
         <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include publication-single.html %}
+      {% assign pub_counter = pub_counter | plus: 1 %}
+      {% include publication-single.html index=pub_counter %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include publication-single.html %}
+    {% include publication-single.html index=forloop.index %}
   {% endfor %}
 {% endif %}
 
