@@ -1,0 +1,19 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="publication-item">
+  {% if post.citation %}
+    <p class="publication-citation">{{ post.citation }}</p>
+  {% else %}
+    <p class="publication-citation">
+      {{ title }}
+      {% if post.venue %} <i>{{ post.venue }}</i>{% endif %}
+      {% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
+    </p>
+  {% endif %}
+</div>

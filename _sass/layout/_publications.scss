@@ -1,0 +1,23 @@
+/* Publication list styles */
+.publication-item {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.publication-citation {
+  margin: 0;
+  font-size: 0.95em;
+  text-align: justify;
+}
+
+.publication-citation i {
+  font-style: italic;
+}
+
+/* Adjust heading styles for publications page */
+.page__content h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
