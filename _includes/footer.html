@@ -1,5 +1,5 @@
 {% include base_path %}
 
-<div class="page__footer-copyright" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #fff; border-top: 1px solid #e0e0e0; padding: 10px 0; text-align: center; z-index: 1000; box-shadow: 0 -2px 5px rgba(0,0,0,0.1);">
+<div class="page__footer-copyright" style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: var(--background-color, #f8f9fa); color: var(--text-color, #333); border-top: 1px solid var(--border-color, #e0e0e0); padding: 12px 0; text-align: center; z-index: 1000; box-shadow: 0 -2px 8px rgba(0,0,0,0.08); font-size: 0.9em;">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} | Last updated: {{ "now" | date: '%B %d, %Y' }}
 </div>
