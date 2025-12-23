@@ -12,11 +12,11 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Liang Yang's Portfolio"  # Update this with the title of your site
 title_separator          : "-"
 name                     : &name "Liang Yang"
-description              : &description "I'm a PhD candidate in information systems (IS)."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I'm a PhD candidate in Management Information Systems (MIS)."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://groot-yang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "groot-yang/groot-yang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,22 +26,22 @@ author:
   avatar           : "person.jpg"
   name             : "Liang Yang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Information Systems at Beijing Institute of Technology"
+  bio              : "PhD Candidate in Management Information Systems at Beijing Institute of Technology"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yl0119@outlook.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=GgNC50AAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL - Update with the correct link to your profile
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
