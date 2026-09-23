@@ -24,4 +24,4 @@ Design: a restrained personal website with a small portrait, a concise introduct
 
 Typography uses self-hosted Source Serif 4 and a Noto Serif CJK subset for headings, with Source Sans 3 for body text. See `assets/fonts/README.md` for licenses and subset maintenance. Research navigation and sections list under-review manuscripts first in both languages.
 
-The homepage features `assets/images/empathetic-chatbot.svg`, an original vector concept illustration. Localized stages and caption live in `profile_ui.yml`. It illustrates the topic, not a measured result or a deployed product interface, and links to the empathetic-dialogue manuscript.
+Each representative paper has its own original vector concept illustration, stored alongside its paper ID in `profile.yml` (`highlights.image` and localized `image_alt`). The same mapping is used for homepage highlights and the publication list. Research directions remain text-only. The drawings illustrate study topics, not experimental results or deployed products.

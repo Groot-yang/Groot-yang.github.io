@@ -1,29 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" fill="none">
-  <title>Empathetic chatbot conversation</title>
-  <desc>A person and a conversational assistant exchange messages. A small connected network represents the reasoning behind an empathetic reply.</desc>
-  <rect width="600" height="280" rx="8" fill="#f7f9fb"/>
-  <path d="M123 122v40c0 19 15 34 34 34h285" stroke="#cbd5df" stroke-width="2" stroke-dasharray="4 6"/>
-  <path d="m433 190 9 6-9 6" stroke="#8b9aa9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="85" cy="69" r="31" fill="#e7edf2"/>
-  <circle cx="85" cy="61" r="10" stroke="#465b70" stroke-width="2.5"/>
-  <path d="M67 88c1-13 8-18 18-18s17 5 18 18" stroke="#465b70" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M139 38h315a14 14 0 0 1 14 14v48a14 14 0 0 1-14 14H153l-23 13V52a14 14 0 0 1 9-14Z" fill="white" stroke="#d4dde5" stroke-width="1.5"/>
-  <path d="M155 62h196M155 79h254M155 96h140" stroke="#bac6d1" stroke-width="5" stroke-linecap="round"/>
-  <rect x="474" y="158" width="73" height="69" rx="17" fill="#e7edf2"/>
-  <path d="M511 174v-9" stroke="#465b70" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="511" cy="163" r="3" fill="#465b70"/>
-  <rect x="489" y="177" width="44" height="32" rx="10" fill="white" stroke="#465b70" stroke-width="2"/>
-  <circle cx="501" cy="189" r="2.5" fill="#465b70"/>
-  <circle cx="521" cy="189" r="2.5" fill="#465b70"/>
-  <path d="M505 199c3 3 9 3 12 0" stroke="#465b70" stroke-width="2" stroke-linecap="round"/>
-  <path d="M456 154H181a14 14 0 0 0-14 14v62a14 14 0 0 0 14 14h261l23 12v-88a14 14 0 0 0-9-14Z" fill="white" stroke="#9db1c2" stroke-width="1.5"/>
-  <path d="M192 179h127M192 198h246M192 217h199" stroke="#738ca2" stroke-width="5" stroke-linecap="round"/>
-  <g stroke="#91a3b4" stroke-width="1.5">
-    <path d="m49 206 33-29 35 30-35 28-33-29Zm0 0h68m-35-29v58"/>
-    <circle cx="49" cy="206" r="5" fill="white"/>
-    <circle cx="82" cy="177" r="5" fill="white"/>
-    <circle cx="117" cy="207" r="5" fill="white"/>
-    <circle cx="82" cy="235" r="5" fill="white"/>
-    <circle cx="82" cy="206" r="7" fill="#e7edf2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+<title>Emotional intelligence for empathetic dialogue generation</title><desc>A person and a chatbot exchange messages around a small agent network, illustrating the empathetic dialogue generation study.</desc>
+<rect width="400" height="300" rx="8" fill="#f7f9fb"/>
+<circle cx="53" cy="73" r="26" fill="#e7edf2"/>
+<circle cx="53" cy="66" r="8" stroke="#465b70" stroke-width="2.5"/>
+<path d="M38 89c1-13 29-13 30 0" stroke="#465b70" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M105 37h244a10 10 0 0 1 10 10v57a10 10 0 0 1-10 10H114l-20 12V47a10 10 0 0 1 11-10Z" fill="white" stroke="#c2d0dc" stroke-width="2"/>
+<path d="M115 60h153m-153 18h219m-219 18h119" stroke="#acbdcc" stroke-width="5" stroke-linecap="round"/>
+<path d="M170 115v18h53v28" stroke="#a3b5c4" stroke-width="2" stroke-dasharray="3 4"/>
+<circle cx="171" cy="136" r="5" fill="white" stroke="#8aa0b2" stroke-width="1.5"/><circle cx="195" cy="136" r="5" fill="white" stroke="#8aa0b2" stroke-width="1.5"/><circle cx="221" cy="136" r="5" fill="white" stroke="#8aa0b2" stroke-width="1.5"/>
+<path d="M54 164h218a10 10 0 0 1 10 10v61l17 13h-27H54a10 10 0 0 1-10-10v-64a10 10 0 0 1 10-10Z" fill="white" stroke="#98adbf" stroke-width="2"/>
+<path d="M65 186h129m-129 20h193m-193 20h151" stroke="#758ea4" stroke-width="5" stroke-linecap="round"/>
+<rect x="306" y="169" width="67" height="67" rx="16" fill="#e7edf2"/>
+<path d="M340 185v-9" stroke="#465b70" stroke-width="2" stroke-linecap="round"/><circle cx="340" cy="174" r="3" fill="#465b70"/>
+<rect x="319" y="188" width="42" height="31" rx="9" fill="white" stroke="#465b70" stroke-width="2"/>
+<circle cx="330" cy="199" r="2.5" fill="#465b70"/><circle cx="350" cy="199" r="2.5" fill="#465b70"/>
+<path d="M334 209c3 3 9 3 12 0" stroke="#465b70" stroke-width="2" stroke-linecap="round"/>
 </svg>

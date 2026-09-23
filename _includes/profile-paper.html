@@ -1,5 +1,9 @@
-<article class="paper" id="paper-{{ paper.id }}">
-  <h3>{{ paper.title }}</h3>
-  <p class="paper-authors">{{ paper.authors | escape | replace: 'Yang, L.', '<strong>Yang, L.</strong>' | replace: '杨亮', '<strong>杨亮</strong>' }}</p>
-  <p class="paper-venue">{% if paper.venue != '' %}<em>{{ paper.venue }}</em>. {% endif %}{% if paper.year != '' %}{{ paper.year }}. {% endif %}{{ paper.detail[lang] }}.{% if paper.role[lang] != '' %} <span class="author-role">{{ paper.role[lang] }}.</span>{% endif %}</p>
+{% assign paper_visual = p.highlights | where: 'paper', paper.id | first %}
+<article class="paper{% if paper_visual.image and page.kind == 'publications' %} paper-with-image{% endif %}" id="paper-{{ paper.id }}">
+  {% if paper_visual.image and page.kind == 'publications' %}<img class="paper-thumbnail" src="{{ paper_visual.image | relative_url }}" alt="{{ paper_visual.image_alt[lang] }}" width="400" height="300">{% endif %}
+  <div class="paper-content">
+    <h3>{{ paper.title }}</h3>
+    <p class="paper-authors">{{ paper.authors | escape | replace: 'Yang, L.', '<strong>Yang, L.</strong>' | replace: '杨亮', '<strong>杨亮</strong>' }}</p>
+    <p class="paper-venue">{% if paper.venue != '' %}<em>{{ paper.venue }}</em>. {% endif %}{% if paper.year != '' %}{{ paper.year }}. {% endif %}{{ paper.detail[lang] }}.{% if paper.role[lang] != '' %} <span class="author-role">{{ paper.role[lang] }}.</span>{% endif %}</p>
+  </div>
 </article>
