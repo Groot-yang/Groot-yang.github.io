@@ -510,9 +510,9 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 37%;
-  transform: scale(1.45);
-  transform-origin: 50% 37%;
+  object-position: 50% 62%;
+  transform: scale(2);
+  transform-origin: 36% 62%;
 }
 .profile-summary h1 {
   font-size: 46px;

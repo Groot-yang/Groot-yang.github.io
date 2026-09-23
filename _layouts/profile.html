@@ -45,7 +45,7 @@
   {% if page.kind == 'home' %}
     <section class="profile-intro" aria-labelledby="profile-title">
       <div class="profile-avatar">
-        <img src="{{ '/images/person.jpg' | relative_url }}" alt="{{ p.name[lang] }}" width="1279" height="1706" fetchpriority="high">
+        <img src="{{ '/images/portrait-coast.jpg' | relative_url }}" alt="{{ p.name[lang] }}" width="1280" height="1920" fetchpriority="high">
       </div>
       <div class="profile-summary">
         <h1 id="profile-title">{{ p.name[lang] }} <span class="alternate-name" lang="{% if lang == 'zh' %}en{% else %}zh-CN{% endif %}">{% if lang == 'zh' %}Liang Yang{% else %}杨亮{% endif %}</span></h1>
