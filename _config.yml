@@ -23,7 +23,7 @@ repository               : "groot-yang/groot-yang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "portrait-coast.jpg"
+  avatar           : "person.jpg"
   name             : "Liang Yang"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Management Information Systems at Beijing Institute of Technology"

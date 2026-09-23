@@ -2,7 +2,7 @@
 layout: profile
 lang: en
 kind: home
-title: "Home"
+title: "About"
 permalink: /
 en_url: /
 zh_url: /zh/
