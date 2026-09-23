@@ -241,7 +241,7 @@
         "en": "349, 116480",
         "zh": "349, 116480"
       },
-      "selected": true,
+      "selected": false,
       "role": {
         "en": "",
         "zh": ""
@@ -258,7 +258,7 @@
         "en": "102831",
         "zh": "102831"
       },
-      "selected": true,
+      "selected": false,
       "role": {
         "en": "",
         "zh": ""
@@ -275,7 +275,7 @@
         "en": "270, 126583",
         "zh": "270, 126583"
       },
-      "selected": true,
+      "selected": false,
       "role": {
         "en": "",
         "zh": ""
@@ -462,7 +462,7 @@
         "en": "Nashville, USA",
         "zh": "美国 · 纳什维尔"
       },
-      "selected": false,
+      "selected": true,
       "role": {
         "en": "",
         "zh": ""
@@ -496,7 +496,7 @@
         "en": "Bangkok, Thailand",
         "zh": "泰国 · 曼谷"
       },
-      "selected": false,
+      "selected": true,
       "role": {
         "en": "",
         "zh": ""
@@ -513,7 +513,7 @@
         "en": "Bangkok, Thailand",
         "zh": "泰国 · 曼谷"
       },
-      "selected": false,
+      "selected": true,
       "role": {
         "en": "Co-first author",
         "zh": "共同第一作者"
@@ -591,56 +591,77 @@
       }
     },
     {
-      "paper": "bayesian",
+      "paper": "support",
       "topic": {
-        "en": "LLM-guided coronary heart disease prediction",
-        "zh": "LLM 引导的冠心病因果预测"
+        "en": "Inferring implicit social support needs",
+        "zh": "识别隐含的社会支持需求"
       },
       "summary": {
-        "en": "Combining LLM-guided structure discovery and Bayesian causal modeling for coronary heart disease prediction.",
-        "zh": "结合大语言模型引导的结构发现与贝叶斯因果建模，研究冠心病风险预测。"
+        "en": "Using simulated answers and gold-answer guided contrastive learning to infer support needs in new questions.",
+        "zh": "通过模拟回答与标准回答引导的对比学习，识别新问题中隐含的社会支持需求。"
       },
-      "image": "/assets/images/research-heart-monitor.jpg",
+      "image": "/assets/images/research-online-support.jpg",
       "image_alt": {
-        "en": "A medical monitor displaying heart rate and vital signs.",
-        "zh": "医疗监护仪显示心率波形与生命体征。"
+        "en": "Hands typing on a laptop keyboard.",
+        "zh": "双手在笔记本电脑键盘上输入文字。"
       },
       "image_credit": {
-        "author": "Jair Lázaro",
-        "source": "https://unsplash.com/photos/0lrJo37r6Nk",
+        "author": "Thomas Lefebvre",
+        "source": "https://commons.wikimedia.org/wiki/File:Typing_on_a_mac_(Unsplash).jpg",
+        "license": "CC0 1.0"
+      }
+    },
+    {
+      "paper": "icis25",
+      "topic": {
+        "en": "Empathetic dialogue for mental health support",
+        "zh": "面向心理健康支持的共情对话"
+      },
+      "summary": {
+        "en": "Exploring emotional intelligence-enhanced multi-agent reinforcement learning for empathetic mental health dialogue.",
+        "zh": "探索情绪智力增强的多智能体强化学习，用于心理健康支持中的共情对话。"
+      },
+      "image": "/assets/images/research-chatbot.jpg",
+      "image_alt": {
+        "en": "A smartphone displaying the ChatGPT interface beside a laptop.",
+        "zh": "笔记本电脑旁的手机显示 ChatGPT 聊天界面。"
+      },
+      "image_credit": {
+        "author": "Tim Witzdam",
+        "source": "https://unsplash.com/photos/e4I4RQJchV8",
         "license": "Unsplash License"
       }
     },
     {
-      "paper": "therapeutics",
-      "topic": {
-        "en": "Digital therapeutics for disease self-management",
-        "zh": "疾病自我管理中的数字疗法"
-      },
-      "summary": {
-        "en": "A systematic review of digital therapeutics and their role in disease self-management.",
-        "zh": "系统梳理数字疗法研究，关注其在疾病自我管理中的应用。"
-      },
-      "image": "/assets/images/research-digital-health.jpg",
+      "image": "/assets/images/research-night-phone.jpg",
       "image_alt": {
-        "en": "A smartwatch worn at a desk with a tablet and a stethoscope.",
-        "zh": "佩戴智能手表的手臂，桌上放有平板电脑与听诊器。"
+        "en": "A hand holding a smartphone in low evening light.",
+        "zh": "昏暗夜色中，一只手握着智能手机。"
       },
       "image_credit": {
-        "author": "Nappy",
-        "source": "https://unsplash.com/photos/F6ESFfpHjYc",
+        "author": "Mahesh Ranaweera",
+        "source": "https://unsplash.com/photos/bqglFxjB8PM",
         "license": "Unsplash License"
+      },
+      "paper": "icis24night",
+      "topic": {
+        "en": "Temporal patterns in depression detection",
+        "zh": "社交媒体抑郁识别中的时间模式"
+      },
+      "summary": {
+        "en": "Considering temporal patterns to detect depression and its symptoms in social media.",
+        "zh": "结合时间模式，研究社交媒体中的抑郁及其症状识别。"
       }
     },
     {
-      "paper": "answers",
+      "paper": "icis24support",
       "topic": {
-        "en": "Predicting and interpreting mental health support",
-        "zh": "心理健康社区回复的预测与解释"
+        "en": "Understanding support needs in health questions",
+        "zh": "理解健康提问中的社会支持需求"
       },
       "summary": {
-        "en": "Predicting and interpreting the answers received by people seeking support in online mental health communities.",
-        "zh": "通过多任务学习，预测并解释在线心理健康社区中求助者获得的回复。"
+        "en": "An answer-enhanced semi-supervised learning approach to understanding social support needs in health questions.",
+        "zh": "通过回答增强的半监督学习，理解健康提问中的社会支持需求。"
       },
       "image": "/assets/images/research-online-support.jpg",
       "image_alt": {
