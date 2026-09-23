@@ -579,16 +579,14 @@
         "en": "An emotional intelligence-enhanced multi-agent reinforcement learning approach to empathetic dialogue generation.",
         "zh": "通过情绪智力增强的多智能体强化学习方法，研究共情对话生成。"
       },
-      "image": "/assets/images/research-chatbot.jpg",
+      "image": "/assets/images/paper-empathy-figure.png",
       "image_alt": {
-        "en": "A smartphone displaying the ChatGPT interface beside a laptop.",
-        "zh": "笔记本电脑旁的手机显示 ChatGPT 聊天界面。"
+        "en": "Figure 1 from the manuscript: EID-MARL architecture for empathetic dialogue generation.",
+        "zh": "论文图 1：用于共情对话生成的 EID-MARL 模型架构。"
       },
-      "image_credit": {
-        "author": "Tim Witzdam",
-        "source": "https://unsplash.com/photos/e4I4RQJchV8",
-        "license": "Unsplash License"
-      }
+      "image_width": 1608,
+      "image_height": 816,
+      "image_caption": "Figure 1. EID-MARL Architecture"
     },
     {
       "paper": "support",
@@ -599,16 +597,6 @@
       "summary": {
         "en": "Using simulated answers and gold-answer guided contrastive learning to infer support needs in new questions.",
         "zh": "通过模拟回答与标准回答引导的对比学习，识别新问题中隐含的社会支持需求。"
-      },
-      "image": "/assets/images/research-online-support.jpg",
-      "image_alt": {
-        "en": "Hands typing on a laptop keyboard.",
-        "zh": "双手在笔记本电脑键盘上输入文字。"
-      },
-      "image_credit": {
-        "author": "Thomas Lefebvre",
-        "source": "https://commons.wikimedia.org/wiki/File:Typing_on_a_mac_(Unsplash).jpg",
-        "license": "CC0 1.0"
       }
     },
     {
@@ -621,28 +609,16 @@
         "en": "Exploring emotional intelligence-enhanced multi-agent reinforcement learning for empathetic mental health dialogue.",
         "zh": "探索情绪智力增强的多智能体强化学习，用于心理健康支持中的共情对话。"
       },
-      "image": "/assets/images/research-chatbot.jpg",
+      "image": "/assets/images/paper-icis25-figure.png",
       "image_alt": {
-        "en": "A smartphone displaying the ChatGPT interface beside a laptop.",
-        "zh": "笔记本电脑旁的手机显示 ChatGPT 聊天界面。"
+        "en": "Figure 1 from the ICIS 2025 paper: multi-agent reinforcement learning framework.",
+        "zh": "ICIS 2025 论文图 1：多智能体强化学习框架。"
       },
-      "image_credit": {
-        "author": "Tim Witzdam",
-        "source": "https://unsplash.com/photos/e4I4RQJchV8",
-        "license": "Unsplash License"
-      }
+      "image_width": 1560,
+      "image_height": 840,
+      "image_caption": "Figure 1. Multi-agent Reinforcement Learning Framework"
     },
     {
-      "image": "/assets/images/research-night-phone.jpg",
-      "image_alt": {
-        "en": "A hand holding a smartphone in low evening light.",
-        "zh": "昏暗夜色中，一只手握着智能手机。"
-      },
-      "image_credit": {
-        "author": "Mahesh Ranaweera",
-        "source": "https://unsplash.com/photos/bqglFxjB8PM",
-        "license": "Unsplash License"
-      },
       "paper": "icis24night",
       "topic": {
         "en": "Temporal patterns in depression detection",
@@ -651,7 +627,15 @@
       "summary": {
         "en": "Considering temporal patterns to detect depression and its symptoms in social media.",
         "zh": "结合时间模式，研究社交媒体中的抑郁及其症状识别。"
-      }
+      },
+      "image": "/assets/images/paper-icis24night-figure.png",
+      "image_alt": {
+        "en": "Figure 1 from the ICIS 2024 paper: temporal depression detection model.",
+        "zh": "ICIS 2024 论文图 1：结合时间模式的抑郁识别模型。"
+      },
+      "image_width": 1233,
+      "image_height": 870,
+      "image_caption": "Figure 1. The Framework of Our Proposed Model"
     },
     {
       "paper": "icis24support",
@@ -663,16 +647,14 @@
         "en": "An answer-enhanced semi-supervised learning approach to understanding social support needs in health questions.",
         "zh": "通过回答增强的半监督学习，理解健康提问中的社会支持需求。"
       },
-      "image": "/assets/images/research-online-support.jpg",
+      "image": "/assets/images/paper-icis24support-figure.png",
       "image_alt": {
-        "en": "Hands typing on a laptop keyboard.",
-        "zh": "双手在笔记本电脑键盘上输入文字。"
+        "en": "Figure 1 from the ICIS 2024 paper: the AESSDL approach and its baseline.",
+        "zh": "ICIS 2024 论文图 1：AESSDL 方法与基线模型。"
       },
-      "image_credit": {
-        "author": "Thomas Lefebvre",
-        "source": "https://commons.wikimedia.org/wiki/File:Typing_on_a_mac_(Unsplash).jpg",
-        "license": "CC0 1.0"
-      }
+      "image_width": 1974,
+      "image_height": 894,
+      "image_caption": "Figure 1. The AESSDL Approach vs Baseline"
     }
   ]
 }

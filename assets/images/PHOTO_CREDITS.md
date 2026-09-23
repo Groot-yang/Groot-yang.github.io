@@ -10,6 +10,6 @@ These are real photographs used to illustrate the context of individual studies.
 | `research-online-support.jpg` | Thomas Lefebvre | [Original photo](https://commons.wikimedia.org/wiki/File:Typing_on_a_mac_(Unsplash).jpg) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | `research-night-phone.jpg` | Mahesh Ranaweera | [Original photo](https://unsplash.com/photos/bqglFxjB8PM) | [Unsplash License](https://unsplash.com/license) |
 
-Current placement focuses on the two Management Science / MIS Quarterly manuscripts and three ICIS papers. The dialogue papers share the chatbot photo; the support-needs papers share the online typing photo. The night-pattern paper uses the evening smartphone photo. The heart-monitor and digital-health assets are retained for future use and are not currently displayed.
+These stock photos are retained as unused assets. Selected research now uses original paper figures, documented in `FIGURE_SOURCES.md`.
 
 Sources and licenses checked on 2026-09-23. Unsplash files were downloaded as 800 × 600 JPEG crops using the source CDN; the Wikimedia file is a 960 × 640 JPEG preview and is cropped in CSS. No generative image processing was used.

@@ -12,7 +12,7 @@
     "research": "Research interests",
     "selected": "Selected research",
     "selected_note": "Published work and manuscripts under revision",
-    "all": "All publications",
+    "all": "Research details",
     "education": "Current affiliation",
     "contact": "Contact",
     "contact_text": "For research conversations and academic collaboration in AI, health analytics, and information systems.",
@@ -22,7 +22,7 @@
     "review": "Under review & revision",
     "working": "Working papers",
     "conference": "Conference papers",
-    "source_note": "Manuscripts under review and working papers are listed separately from published articles.",
+    "source_note": "Selected manuscripts under revision and ICIS papers.",
     "research_intro": "Exploring how intelligent systems can support people, improve health decisions, and strengthen the quality of online information.",
     "cvintro": "Current affiliation, research projects, patents, and academic service.",
     "talksintro": "Selected conference presentations and research workshops.",
@@ -39,11 +39,12 @@
     "methods_text": "Explainable AI · Large language models · Generative AI · Bayesian networks · Knowledge graphs",
     "topics": "Health analytics · FinTech · Misinformation governance · IoT sensor data",
     "patent_note": "Contributing inventor; application and grant statuses follow the CV.",
-    "record": "Research record",
+    "record": "Selected research",
     "recent_talks": "Recent talks",
     "all_talks": "All talks",
     "read_research": "Publication details",
-    "about_label": "About"
+    "about_label": "About",
+    "figure_link": "View full-size figure"
   },
   "zh": {
     "home": "首页",
@@ -58,7 +59,7 @@
     "research": "研究方向",
     "selected": "代表性研究",
     "selected_note": "已发表成果与在修论文",
-    "all": "全部论文",
+    "all": "研究详情",
     "education": "当前教育信息",
     "contact": "联系",
     "contact_text": "欢迎围绕人工智能、健康分析与信息系统开展学术交流及跨学科合作。",
@@ -68,7 +69,7 @@
     "review": "在审与在修论文",
     "working": "工作论文",
     "conference": "会议论文",
-    "source_note": "已发表论文、在审论文与工作论文分别列示。",
+    "source_note": "在修稿件与 ICIS 论文精选。",
     "research_intro": "探索智能系统如何理解人的需求、改善健康决策，并提升在线信息质量。",
     "cvintro": "当前教育信息、科研项目、发明专利与学术服务。",
     "talksintro": "会议报告与研究研讨会精选。",
@@ -85,10 +86,11 @@
     "methods_text": "可解释人工智能 · 大语言模型 · 生成式人工智能 · 贝叶斯网络 · 知识图谱",
     "topics": "健康分析 · 金融科技 · 错误信息治理 · 物联网传感数据",
     "patent_note": "作为共同发明人参与；申请与授权状态依据简历整理。",
-    "record": "学术成果",
+    "record": "代表性研究",
     "recent_talks": "近期报告",
     "all_talks": "全部报告",
     "read_research": "论文详情",
-    "about_label": "关于我"
+    "about_label": "关于我",
+    "figure_link": "查看原图"
   }
 }
