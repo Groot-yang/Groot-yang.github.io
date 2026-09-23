@@ -1,12 +1,10 @@
 ---
 layout: profile
-lang: en
+lang: zh
 kind: cv
-title: "CV"
-permalink: /cv/
+title: "个人履历"
+permalink: /zh/cv/
 en_url: /cv/
 zh_url: /zh/cv/
 author_profile: false
-redirect_from:
-  - /resume
 ---

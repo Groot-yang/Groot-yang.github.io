@@ -1,0 +1,4 @@
+<article class="paper" id="paper-{{ paper.id }}">
+  <div class="paper-label"><span class="paper-category{% if paper.group == 'review' %} is-review{% endif %}">{% if paper.group == 'review' %}{{ t.review }}{% elsif paper.group == 'working' %}{{ t.working }}{% else %}{{ paper.year }}{% endif %}</span>{% if paper.role[lang] != '' %}<span class="author-role">{{ paper.role[lang] }}</span>{% endif %}</div>
+  <div class="paper-body"><h3>{{ paper.title }}</h3><p class="paper-authors">{{ paper.authors | escape | replace: 'Yang, L.', '<strong>Yang, L.</strong>' | replace: '杨亮', '<strong>杨亮</strong>' }}</p><p class="paper-venue">{% if paper.venue != '' %}<span>{{ paper.venue }}</span><span class="separator"> · </span>{% endif %}{{ paper.detail[lang] }}</p></div>
+</article>

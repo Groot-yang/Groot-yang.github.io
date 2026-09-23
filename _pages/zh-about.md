@@ -1,13 +1,10 @@
 ---
 layout: profile
-lang: en
+lang: zh
 kind: home
-title: "About"
-permalink: /
+title: "关于我"
+permalink: /zh/
 en_url: /
 zh_url: /zh/
 author_profile: false
-redirect_from:
-  - /about/
-  - /about.html
 ---

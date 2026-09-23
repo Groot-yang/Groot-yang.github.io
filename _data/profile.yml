@@ -1,0 +1,620 @@
+{
+  "name": {
+    "en": "Liang Yang",
+    "zh": "杨亮"
+  },
+  "role": {
+    "en": "PhD Candidate · Management Information Systems",
+    "zh": "管理信息系统 · 博士研究生"
+  },
+  "affiliation": {
+    "en": "School of Management, Beijing Institute of Technology",
+    "zh": "北京理工大学 · 管理学院"
+  },
+  "headline": {
+    "en": "Human-centered AI.\nMeaningful health insights.",
+    "zh": "以人为本的人工智能，\n面向真实需求的健康分析。"
+  },
+  "intro": {
+    "en": "I study how artificial intelligence can better understand people and support health decisions. My research connects explainable AI, large language models, and knowledge-driven methods with mental health support, digital therapeutics, and misinformation governance.",
+    "zh": "我的研究聚焦人工智能如何理解人的需求并支持健康决策，将可解释人工智能、大语言模型与知识驱动方法应用于心理健康支持、数字疗法及错误信息治理。"
+  },
+  "bio": {
+    "en": "I am a PhD candidate in Management Science and Engineering at Beijing Institute of Technology, specializing in Management Information Systems and advised by Prof. Zhijun Yan and Prof. Qiuju Yin. From February 2025 to February 2026, I was a visiting doctoral student at the University of Delaware, working with Prof. Jiaheng Xie.",
+    "zh": "我目前在北京理工大学攻读管理科学与工程博士学位，研究方向为管理信息系统，导师为颜志军教授、尹秋菊教授。2025 年 2 月至 2026 年 2 月，我在美国特拉华大学进行博士访问研究，合作导师为 Jiaheng Xie 教授。"
+  },
+  "email": "yl0119@outlook.com",
+  "scholar": "https://scholar.google.com/citations?user=GgNC50AAAAAJ",
+  "github": "https://github.com/Groot-yang",
+  "research": [
+    {
+      "title": {
+        "en": "Empathetic conversational AI",
+        "zh": "共情对话与心理健康"
+      },
+      "text": {
+        "en": "Emotional intelligence and multi-agent reinforcement learning for mental health support and understanding social support needs.",
+        "zh": "结合情绪智力与多智能体强化学习，探索心理健康共情对话及社会支持需求识别。"
+      },
+      "tags": {
+        "en": "Mental health · Multi-agent learning",
+        "zh": "心理健康 · 多智能体学习"
+      }
+    },
+    {
+      "title": {
+        "en": "Explainable health analytics",
+        "zh": "可解释人工智能与健康分析"
+      },
+      "text": {
+        "en": "Bayesian networks, LLM-guided discovery, and interpretable learning for disease risk assessment and digital health.",
+        "zh": "融合贝叶斯网络、大语言模型引导的结构发现与可解释学习，研究疾病风险评估和数字健康。"
+      },
+      "tags": {
+        "en": "Explainable AI · Bayesian networks",
+        "zh": "可解释 AI · 贝叶斯网络"
+      }
+    },
+    {
+      "title": {
+        "en": "Knowledge-driven information integrity",
+        "zh": "知识驱动的错误信息治理"
+      },
+      "text": {
+        "en": "Knowledge graphs and multimodal models for mental health misinformation detection and safer online content.",
+        "zh": "利用知识图谱与多模态模型识别心理健康错误信息，探索更可靠的在线信息环境。"
+      },
+      "tags": {
+        "en": "Knowledge graphs · Multimodal learning",
+        "zh": "知识图谱 · 多模态学习"
+      }
+    }
+  ],
+  "education": [
+    {
+      "date": "2022.09 — 2026.12",
+      "title": {
+        "en": "Beijing Institute of Technology",
+        "zh": "北京理工大学"
+      },
+      "degree": {
+        "en": "PhD in Management Science and Engineering (expected Dec. 2026)",
+        "zh": "管理科学与工程博士（预计 2026 年 12 月毕业）"
+      },
+      "detail": {
+        "en": "Management Information Systems · Advisors: Zhijun Yan and Qiuju Yin",
+        "zh": "管理信息系统方向 · 导师：颜志军教授、尹秋菊教授"
+      }
+    },
+    {
+      "date": "2025.02 — 2026.02",
+      "title": {
+        "en": "University of Delaware",
+        "zh": "美国特拉华大学"
+      },
+      "degree": {
+        "en": "Visiting Doctoral Student · Management Information Systems",
+        "zh": "访问博士生 · 管理信息系统"
+      },
+      "detail": {
+        "en": "Lerner College of Business & Economics · Advisor: Jiaheng Xie",
+        "zh": "Lerner 商业与经济学院 · 合作导师：Jiaheng Xie 教授"
+      }
+    },
+    {
+      "date": "2019.09 — 2022.06",
+      "title": {
+        "en": "Sichuan Agricultural University",
+        "zh": "四川农业大学"
+      },
+      "degree": {
+        "en": "Master’s in Business Administration",
+        "zh": "企业管理硕士"
+      },
+      "detail": {
+        "en": "College of Business and Tourism",
+        "zh": "商旅学院"
+      }
+    },
+    {
+      "date": "2015.09 — 2019.06",
+      "title": {
+        "en": "Sichuan Agricultural University",
+        "zh": "四川农业大学"
+      },
+      "degree": {
+        "en": "Bachelor’s in E-commerce",
+        "zh": "电子商务学士"
+      },
+      "detail": {
+        "en": "Business School",
+        "zh": "商学院"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "date": "2025–2029",
+      "title": {
+        "en": "Proactive intelligent healthcare service management for an aging population",
+        "zh": "面向人口老龄化的主动数智医疗健康服务管理研究"
+      },
+      "detail": {
+        "en": "National Natural Science Foundation of China · Key Program · Participant",
+        "zh": "国家自然科学基金重点项目 · 参与"
+      }
+    },
+    {
+      "date": "2022–2026",
+      "title": {
+        "en": "Proactive depression screening, assessment, intervention, and privacy protection in mobile environments",
+        "zh": "移动互联环境下抑郁症主动智能筛查、评估、干预方法和隐私保护机制研究"
+      },
+      "detail": {
+        "en": "NSFC · Key International (Regional) Joint Research Program · Participant",
+        "zh": "国家自然科学基金重点国际（地区）合作研究项目 · 参与"
+      }
+    },
+    {
+      "date": "2020–2025",
+      "title": {
+        "en": "Research integrity systems: evolution and governance through multi-source data",
+        "zh": "多源数据视角下科研诚信体系建设的逻辑演进及治理研究"
+      },
+      "detail": {
+        "en": "National Social Science Fund of China · Western China Program · Participant",
+        "zh": "国家社会科学基金西部项目 · 参与"
+      }
+    },
+    {
+      "date": "2021–2024",
+      "title": {
+        "en": "How supervision mechanisms in mobile health apps influence public health behavior",
+        "zh": "移动健康 APP 的监督机制对公众健康行为的影响模式研究"
+      },
+      "detail": {
+        "en": "NSFC · General Program · Participant",
+        "zh": "国家自然科学基金面上项目 · 参与"
+      }
+    }
+  ],
+  "patents": [
+    {
+      "title": {
+        "en": "Explainable coronary heart disease prediction with LLM-based augmentation and causal Bayesian inference",
+        "zh": "一种基于 LLM 的数据增强与因果贝叶斯推断的冠心病可解释性预测方法"
+      },
+      "detail": {
+        "en": "Application published · Filed Jun. 6, 2025 · Beijing Institute of Technology",
+        "zh": "发明公开 · 申请日：2025.06.06 · 申请人：北京理工大学"
+      }
+    },
+    {
+      "title": {
+        "en": "Respiratory sound classification using multi-view ensemble learning",
+        "zh": "一种基于多视图集成学习的呼吸音数据分类系统"
+      },
+      "detail": {
+        "en": "Granted Sep. 26, 2025 · ZL 2024 1 1489508.2 · CN 119475125 B",
+        "zh": "已授权 · 授权日：2025.09.26 · ZL 2024 1 1489508.2 · CN 119475125 B"
+      }
+    },
+    {
+      "title": {
+        "en": "A two-stage writing feedback method for mental health help-seekers",
+        "zh": "一种两阶段心理求助者写作反馈方法"
+      },
+      "detail": {
+        "en": "Application accepted · Filed Oct. 24, 2023 · Application No. 202311382381X",
+        "zh": "申请受理 · 申请日：2023.10.24 · 申请号：202311382381X"
+      }
+    }
+  ],
+  "award": {
+    "en": "Beijing Institute of Technology Special Scholarship · 2025",
+    "zh": "北京理工大学特等奖学金 · 2025 年"
+  },
+  "journals": [
+    "ACM Transactions on Management Information Systems",
+    "Expert Systems with Applications",
+    "Electronic Commerce Research"
+  ],
+  "conferences": [
+    "ICIS",
+    "CNAIS",
+    "CIST",
+    "INFORMS Workshop on Data Science",
+    "WITS",
+    "HICSS"
+  ],
+  "publications": [
+    {
+      "id": "empathy",
+      "group": "review",
+      "title": "AI-enabled Empathetic Dialogue Generation: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
+      "authors": "Yang, L., Xie, J., Yin, Q., & Yan, Z.",
+      "venue": "Management Science",
+      "year": "",
+      "detail": {
+        "en": "Major revision · Round 1",
+        "zh": "大修 · 第一轮"
+      },
+      "selected": true,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "support",
+      "group": "review",
+      "title": "Simulating a Pseudo-Answer to Infer Implicit Social Support Needs in New Questions: A Gold-Answer Guided Attentive Contrastive Learning Approach",
+      "authors": "Kuang, J.*, Yang, L.*, Cui, S., & Fan, W.",
+      "venue": "MIS Quarterly",
+      "year": "",
+      "detail": {
+        "en": "Major revision · Round 2",
+        "zh": "大修 · 第二轮"
+      },
+      "selected": true,
+      "role": {
+        "en": "Co-first author",
+        "zh": "共同第一作者"
+      }
+    },
+    {
+      "id": "copd",
+      "group": "review",
+      "title": "An intelligent multi-view ensemble learning framework for chronic obstructive pulmonary disease risk assessment using respiratory sounds",
+      "authors": "Cui, S., Kuang, J., & Yang, L.*",
+      "venue": "Artificial Intelligence in Medicine",
+      "year": "",
+      "detail": {
+        "en": "Under review",
+        "zh": "在审"
+      },
+      "selected": false,
+      "role": {
+        "en": "Corresponding author",
+        "zh": "通讯作者"
+      }
+    },
+    {
+      "id": "bayesian",
+      "group": "journal",
+      "title": "Bayesian Causal Prediction of Coronary Heart Disease: Leveraging LLM-Guided Structure Discovery and Imbalance-Aware Augmentation",
+      "authors": "Yang, L., Ma, Y., & Wang, L.",
+      "venue": "Knowledge-Based Systems",
+      "year": "2026",
+      "detail": {
+        "en": "349, 116480",
+        "zh": "349, 116480"
+      },
+      "selected": true,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "therapeutics",
+      "group": "journal",
+      "title": "Understanding digital therapeutics in disease self-management: A systematic literature review",
+      "authors": "Yang, L., Zhang, M., Jia, L., Yan, Z., & Yin, Q.",
+      "venue": "Technology in Society",
+      "year": "2025",
+      "detail": {
+        "en": "102831",
+        "zh": "102831"
+      },
+      "selected": true,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "answers",
+      "group": "journal",
+      "title": "A two-stage multi-task learning model for predicting and interpreting received answers in online mental health communities",
+      "authors": "Yin, Q., Yang, L., Kuang, J., & Yan, Z.",
+      "venue": "Expert Systems with Applications",
+      "year": "2025",
+      "detail": {
+        "en": "270, 126583",
+        "zh": "270, 126583"
+      },
+      "selected": true,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "crowdfunding",
+      "group": "journal",
+      "title": "Exploring the success determinants of crowdfunding for cultural and creative projects: An empirical study based on signal theory",
+      "authors": "Li, L., Yang, L., Zhao, M., Liao, M., & Cao, Y.",
+      "venue": "Technology in Society",
+      "year": "2022",
+      "detail": {
+        "en": "70, 102036",
+        "zh": "70, 102036"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "team",
+      "group": "journal",
+      "title": "Effect of Team Diversity on Physician Performance and Reputation: Evidence from an Online Healthcare Platform",
+      "authors": "Wang, B., Yan, Z., Yang, L., & Yang, H.",
+      "venue": "International Journal of Crowd Science",
+      "year": "2026",
+      "detail": {
+        "en": "10(1), 1–12",
+        "zh": "10(1), 1–12"
+      },
+      "selected": false,
+      "role": {
+        "en": "Corresponding author",
+        "zh": "通讯作者"
+      }
+    },
+    {
+      "id": "misinformation",
+      "group": "journal",
+      "title": "Combating Mental Health Misinformation on Social Media: A Knowledge-Guided Multimodal Framework",
+      "authors": "Shi, J.*, Yang, L.*, & Yan, Z.",
+      "venue": "Information Processing & Management",
+      "year": "2027",
+      "detail": {
+        "en": "64(1), 105054 · 2027 issue, as listed in CV",
+        "zh": "64(1), 105054 · 简历所列卷期年份为 2027"
+      },
+      "selected": false,
+      "role": {
+        "en": "Co-first author",
+        "zh": "共同第一作者"
+      }
+    },
+    {
+      "id": "readmission",
+      "group": "journal",
+      "title": "An interpretable imbalance ensemble classification method for readmission risk assessment incorporating multi-view perturbation and SHAP analysis",
+      "authors": "Cui, S., Gao, R., Kuang, J., Yang, L., Qiu, H., & Wei, X.",
+      "venue": "Decision Support Systems",
+      "year": "2025",
+      "detail": {
+        "en": "190, 114404",
+        "zh": "190, 114404"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "commerce",
+      "group": "journal",
+      "title": "The power of talk: Exploring the effects of streamers’ linguistic styles on sales performance in B2B livestreaming commerce",
+      "authors": "Liu, L., Fang, J., Yang, L., Han, L., Hossin, M. A., & Wen, C.",
+      "venue": "Information Processing & Management",
+      "year": "2023",
+      "detail": {
+        "en": "60(3), 103259",
+        "zh": "60(3), 103259"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ugc",
+      "group": "journal",
+      "title": "视频 UGC 流行度影响因素研究：基于 Bilibili 网站数据",
+      "authors": "李良强，廖觅燕，刘璐，杨亮，方佳明",
+      "venue": "电子科技大学学报（社科版）",
+      "year": "2022",
+      "detail": {
+        "en": "24(01), 42–51",
+        "zh": "24(01), 42–51"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "hotel",
+      "group": "journal",
+      "title": "边缘线索提高在线酒店预订意愿：天气和图片色调的匹配效应",
+      "authors": "廖觅燕，刘璐，方佳明，杨亮，李良强",
+      "venue": "南开管理评论",
+      "year": "2021",
+      "detail": {
+        "en": "24(06), 62–73",
+        "zh": "24(06), 62–73"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "integrity",
+      "group": "journal",
+      "title": "我国科研诚信政策特征及演化逻辑：基于文本挖掘法",
+      "authors": "杨锐，杨亮，李良强，张楠，廖觅燕",
+      "venue": "科技进步与对策",
+      "year": "2020",
+      "detail": {
+        "en": "37(20), 89–98",
+        "zh": "37(20), 89–98"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "graph",
+      "group": "working",
+      "title": "From Graph to Determination: Reinforced Graph Evidence for Robust Mental-Health Misinformation Detection",
+      "authors": "Yang, L., Xie, J., Yin, Q., & Yan, Z.",
+      "venue": "",
+      "year": "",
+      "detail": {
+        "en": "Working paper · Presented at SWAIB 2026",
+        "zh": "工作论文 · 已报告于 SWAIB 2026"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "night",
+      "group": "working",
+      "title": "Does the Night Give Power? Social Media Depression and Its Symptom Detection Considering Temporal Patterns",
+      "authors": "Yang, L., Xie, J., Yin, Q., & Yan, Z.",
+      "venue": "",
+      "year": "",
+      "detail": {
+        "en": "Working paper · Presented at ICIS 2024",
+        "zh": "工作论文 · 已报告于 ICIS 2024"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "icis25",
+      "group": "conference",
+      "title": "Probing Empathetic Dialogue for Mental Health Support: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
+      "authors": "Yang, L., Xie, J., Yin, Q., Yan, Z., Dong, Y., & Lin, Y.",
+      "venue": "ICIS",
+      "year": "2025",
+      "detail": {
+        "en": "Nashville, USA",
+        "zh": "美国 · 纳什维尔"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "pacis25",
+      "group": "conference",
+      "title": "Protecting Children from Violent Short Videos: A Child-Attentive Multimodal Multitask Learning Approach",
+      "authors": "Zhao, C.*, Yang, L.*, Kuang, J., & Yan, Z.",
+      "venue": "PACIS",
+      "year": "2025",
+      "detail": {
+        "en": "Kuala Lumpur, Malaysia",
+        "zh": "马来西亚 · 吉隆坡"
+      },
+      "selected": false,
+      "role": {
+        "en": "Co-first author",
+        "zh": "共同第一作者"
+      }
+    },
+    {
+      "id": "icis24night",
+      "group": "conference",
+      "title": "Does the Night Give Power? Social Media Depression and Its Symptom Detection Considering Temporal Patterns",
+      "authors": "Yang, L., Yin, Q., Yan, Z., Cui, S., & Kuang, J.",
+      "venue": "ICIS",
+      "year": "2024",
+      "detail": {
+        "en": "Bangkok, Thailand",
+        "zh": "泰国 · 曼谷"
+      },
+      "selected": false,
+      "role": {
+        "en": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "icis24support",
+      "group": "conference",
+      "title": "Understanding Social Support Needs in Health Question: An Answer-Enhanced Semi-Supervised Deep Learning Approach",
+      "authors": "Kuang, J.*, Yang, L.*, Cui, S., & Fan, W.",
+      "venue": "ICIS",
+      "year": "2024",
+      "detail": {
+        "en": "Bangkok, Thailand",
+        "zh": "泰国 · 曼谷"
+      },
+      "selected": false,
+      "role": {
+        "en": "Co-first author",
+        "zh": "共同第一作者"
+      }
+    }
+  ],
+  "talks": [
+    {
+      "date": "2026.07",
+      "event": "SWAIB 2026",
+      "title": "From Graph to Determination: Reinforced Graph Evidence for Robust Mental-Health Misinformation Detection",
+      "place": {
+        "en": "Dalian, China",
+        "zh": "中国 · 大连"
+      }
+    },
+    {
+      "date": "2025.12",
+      "event": "ICIS 2025",
+      "title": "Probing Empathetic Dialogue for Mental Health Support: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
+      "place": {
+        "en": "Nashville, USA",
+        "zh": "美国 · 纳什维尔"
+      }
+    },
+    {
+      "date": "2025.11.14",
+      "event": "Philadelphia Operations and Technology Day",
+      "title": "Probing Empathetic Dialogue for Mental Health Support: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
+      "place": {
+        "en": "Villanova University · Wayne, PA, USA",
+        "zh": "维拉诺瓦大学 · 美国宾夕法尼亚州"
+      }
+    },
+    {
+      "date": "2025",
+      "event": "INFORMS Workshop on Data Science",
+      "title": "Probing Empathetic Dialogue for Mental Health Support: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
+      "place": {
+        "en": "Atlanta, USA",
+        "zh": "美国 · 亚特兰大"
+      }
+    },
+    {
+      "date": "2024.12",
+      "event": "ICIS 2024",
+      "title": "Does the Night Give Power? Social Media Depression and Its Symptom Detection Considering Temporal Patterns",
+      "place": {
+        "en": "Bangkok, Thailand",
+        "zh": "泰国 · 曼谷"
+      }
+    }
+  ],
+  "researchgate": "https://www.researchgate.net/profile/Liang-Yang-70"
+}

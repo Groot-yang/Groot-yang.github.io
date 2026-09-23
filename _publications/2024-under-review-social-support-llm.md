@@ -1,9 +1,9 @@
 ---
-title: "Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation"
+title: "Simulating a Pseudo-Answer to Infer Implicit Social Support Needs in New Questions: A Gold-Answer Guided Attentive Contrastive Learning Approach"
 collection: publications
 category: underreview
 permalink: /publication/2024-under-review-social-support-llm
 date: 2024-12-02
 venue: 'MIS Quarterly'
-citation: 'Kuang, J.*, Yang, L.*, Cui, S., & Fan, W. Understanding Social Support Needs in Questions: A Hybrid Approach Integrating Semi-Supervised Learning and LLM-based Data Augmentation. 2nd round at <i>MIS Quarterly</i> (FT 50, UTD 24). (*Co-first Author and Equal Contribution)'
+citation: "Kuang, J.*, Yang, L.*, Cui, S., & Fan, W. Simulating a Pseudo-Answer to Infer Implicit Social Support Needs in New Questions: A Gold-Answer Guided Attentive Contrastive Learning Approach. MIS Quarterly.  Major revision · Round 2."
 ---

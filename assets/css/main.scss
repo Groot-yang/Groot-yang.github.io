@@ -42,3 +42,66 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.lang-switcher {
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2rem;
+  padding: 0.25rem;
+  border: 1px solid rgba(0, 102, 204, 0.18);
+  border-radius: 999px;
+  background: rgba(0, 102, 204, 0.04);
+}
+
+.lang-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #2d3b4f;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.lang-link:hover,
+.lang-link.active {
+  background: linear-gradient(135deg, #0a66c2, #0057b8);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(10, 102, 194, 0.18);
+}
+
+.page__content h2,
+.page__content h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+  color: #1c2b3a;
+}
+
+.page__content p,
+.page__content li {
+  line-height: 1.8;
+  color: rgba(19, 28, 38, 0.9);
+}
+
+.page__content ul {
+  padding-left: 1.2rem;
+}
+
+.page__content section {
+  scroll-margin-top: 5rem;
+}
+
+@media (max-width: 640px) {
+  .lang-switcher {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lang-link {
+    flex: 1;
+    text-align: center;
+  }
+}

@@ -1,0 +1,1 @@
+<div class="education-list">{% for item in p.education %}<article class="education-row"><p class="date">{{ item.date }}</p><div><h3>{{ item.title[lang] }}</h3><p class="degree">{{ item.degree[lang] }}</p><p class="muted">{{ item.detail[lang] }}</p></div></article>{% endfor %}</div>

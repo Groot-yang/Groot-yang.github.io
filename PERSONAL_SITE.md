@@ -1,0 +1,21 @@
+﻿# Personal website content
+
+The primary pages use `_layouts/profile.html` and `assets/css/profile.css`, independently of the legacy Academic Pages archive styles.
+
+| Page | English | Chinese |
+| --- | --- | --- |
+| About | `/` | `/zh/` |
+| Research | `/publications/` | `/zh/publications/` |
+| CV | `/cv/` | `/zh/cv/` |
+| Talks | `/talks/` | `/zh/talks/` |
+
+- Edit `_data/profile.yml` for biography, education, research, publications, projects, patents, and academic service. It uses JSON syntax, which is valid YAML. `en` and `zh` values contain the two language versions.
+- Edit `_data/profile_ui.yml` for navigation and interface labels.
+- Publication groups are `journal`, `review`, `working`, and `conference`. Set `selected: true` to feature a record on the home page. Author-role labels are separate from review status.
+- Publication titles remain in their original language. The 2027 journal issue year follows the supplied CV and is explicitly annotated. Review stages are a snapshot of the supplied CV, not automatically updated.
+- Both language versions are static, with matching canonical and hreflang links. Navigation does not require JavaScript. JavaScript only enables the CV print action; printed CVs include the publication list.
+- The legacy `_publications` URLs remain available. If an existing paper changes status or title, also update its legacy record.
+
+Build with the repository's existing Jekyll workflow (`bundle exec jekyll build`). No new production dependencies are required.
+
+Local validation: all eight primary routes were rendered with LiquidJS and checked in headless Edge at 320, 390, 768, and 1440 px, including language switching, internal links, publication counts, no-JavaScript navigation, and print styles. A native Jekyll build was not run because Ruby/Bundler is unavailable in the editing environment.
