@@ -1,4 +1,4 @@
-/* Minimal academic layout. All pages share a single reading column. */
+/* Restrained personal website, with dedicated pages for full academic records. */
 :root {
   --ink: #232323;
   --muted: #636363;
@@ -169,18 +169,6 @@ button {
 .text-link {
   font-size: 13px;
   white-space: nowrap;
-}
-.research-list {
-  margin: 0;
-  padding-left: 20px;
-}
-.research-list li {
-  padding-left: 3px;
-  margin-bottom: 9px;
-  font-size: 14px;
-}
-.research-list strong {
-  font-weight: 600;
 }
 .publication-list {
   counter-reset: paper;
@@ -420,9 +408,6 @@ button {
   .section {
     margin-top: 29px;
   }
-  .research-list li {
-    font-size: 13px;
-  }
   .paper h3 {
     font-size: 13px;
   }
@@ -461,6 +446,238 @@ button {
   }
   .text-link {
     font-size: 12px;
+  }
+}
+
+.site-header,
+.site-footer {
+  width: min(100% - 48px, 1040px);
+}
+.page-home .site-main {
+  width: min(100% - 48px, 1040px);
+}
+.page-home .profile-intro {
+  display: grid;
+  grid-template-columns: 184px minmax(0, 1fr);
+  gap: 44px;
+  padding-top: 56px;
+}
+.profile-avatar {
+  width: 184px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-top: 7px;
+  background: #f1f1f1;
+}
+.profile-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 37%;
+  transform: scale(1.45);
+  transform-origin: 50% 37%;
+}
+.profile-summary h1 {
+  font-size: 36px;
+}
+.profile-summary .profile-role {
+  margin-top: 8px;
+}
+.profile-summary .biography {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.profile-summary .biography p + p {
+  margin-top: 11px;
+}
+.profile-summary .profile-links {
+  margin: 20px 0 0;
+}
+.home-research {
+  margin-top: 45px;
+  padding: 29px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.home-research > h2 {
+  margin-bottom: 20px;
+}
+.research-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+.research-columns h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.research-columns p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.85;
+}
+.home-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 275px;
+  gap: 60px;
+  margin-top: 40px;
+}
+.home-content .section-heading {
+  border: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+.home-feature {
+  margin-bottom: 25px;
+}
+.feature-venue {
+  color: var(--muted);
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.home-feature h3 {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.home-feature h3 a {
+  color: var(--ink);
+}
+.home-feature > p:not(.feature-venue) {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.85;
+}
+.feature-link {
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 12px;
+}
+.home-updates {
+  border-left: 1px solid var(--line);
+  padding-left: 26px;
+}
+.home-update {
+  margin-bottom: 25px;
+}
+.home-update h3 {
+  margin: 5px 0 8px;
+  font-size: 14px;
+}
+.home-update > p:not(.date) {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+@media (max-width: 800px) {
+  .page-home .profile-intro {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 28px;
+  }
+  .profile-avatar {
+    width: 150px;
+    height: 180px;
+  }
+  .home-content {
+    grid-template-columns: minmax(0, 1fr) 215px;
+    gap: 30px;
+  }
+  .research-columns {
+    gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .page-home .profile-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding-top: 30px;
+  }
+  .profile-avatar {
+    width: 126px;
+    height: 148px;
+    margin-top: 0;
+  }
+  .profile-summary h1 {
+    font-size: 30px;
+  }
+  .profile-summary .biography {
+    font-size: 14px;
+  }
+  .home-research {
+    margin-top: 32px;
+    padding: 24px 0;
+  }
+  .research-columns {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .research-columns h3 {
+    margin-bottom: 5px;
+  }
+  .home-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 30px;
+  }
+  .home-updates {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 24px 0 0;
+  }
+  .home-content .section-heading {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .site-header,
+  .site-footer,
+  .page-home .site-main {
+    width: calc(100% - 36px);
+  }
+}
+@media (max-width: 600px) {
+  .page-home .profile-intro {
+    grid-template-columns: minmax(0, 1fr) 96px;
+    column-gap: 20px;
+    row-gap: 0;
+  }
+  .profile-summary {
+    display: contents;
+  }
+  .profile-avatar {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    width: 96px;
+    height: 120px;
+    margin-top: 4px;
+  }
+  .profile-summary h1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 28px;
+    align-self: start;
+  }
+  .profile-summary .alternate-name {
+    display: block;
+    margin-left: 0;
+    margin-top: 1px;
+    font-size: 18px;
+  }
+  .profile-summary .profile-role {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 12px;
+    margin-top: 9px;
+  }
+  .profile-summary .biography {
+    grid-column: 1 / -1;
+    margin-top: 24px;
+  }
+  .profile-summary .profile-links {
+    grid-column: 1 / -1;
   }
 }
 @media print {

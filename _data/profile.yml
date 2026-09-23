@@ -567,5 +567,40 @@
       }
     }
   ],
-  "researchgate": "https://www.researchgate.net/profile/Liang-Yang-70"
+  "researchgate": "https://www.researchgate.net/profile/Liang-Yang-70",
+  "highlights": [
+    {
+      "paper": "bayesian",
+      "topic": {
+        "en": "Explainable disease prediction",
+        "zh": "可解释疾病预测"
+      },
+      "summary": {
+        "en": "Combining LLM-guided structure discovery and Bayesian causal modeling for coronary heart disease prediction.",
+        "zh": "结合大语言模型引导的结构发现与贝叶斯因果建模，研究冠心病风险预测。"
+      }
+    },
+    {
+      "paper": "therapeutics",
+      "topic": {
+        "en": "Digital therapeutics",
+        "zh": "数字疗法"
+      },
+      "summary": {
+        "en": "A systematic review of digital therapeutics and their role in disease self-management.",
+        "zh": "系统梳理数字疗法研究，关注其在疾病自我管理中的应用。"
+      }
+    },
+    {
+      "paper": "answers",
+      "topic": {
+        "en": "Online mental health support",
+        "zh": "在线心理健康支持"
+      },
+      "summary": {
+        "en": "Predicting and interpreting the answers received by people seeking support in online mental health communities.",
+        "zh": "通过多任务学习，预测并解释在线心理健康社区中求助者获得的回复。"
+      }
+    }
+  ]
 }

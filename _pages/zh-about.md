@@ -2,7 +2,7 @@
 layout: profile
 lang: zh
 kind: home
-title: "关于我"
+title: "个人主页"
 permalink: /zh/
 en_url: /
 zh_url: /zh/
