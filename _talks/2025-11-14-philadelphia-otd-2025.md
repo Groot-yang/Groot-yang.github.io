@@ -5,14 +5,13 @@ type: "Conference Presentation"
 permalink: /talks/2025-11-14-philadelphia-otd-2025
 venue: "3rd Annual Philadelphia Operations and Technology Day (Philadelphia OTD)"
 date: 2025-11-14
-location: "Villanova University, Wayne, PA, USA"
+location: "Wayne, PA, USA"
 ---
 
 Presented at the 3rd Annual Philadelphia Operations and Technology Day (Philadelphia OTD).
 
 ## Event Details
 
-**Venue:** The Inn at Villanova  
 **Address:** 601 Country Line Rd, Wayne, PA 19087  
 **Date:** November 14, 2025  
 **Time:** 9:00 AM – 5:00 PM (Breakfast from 8:30 AM)  

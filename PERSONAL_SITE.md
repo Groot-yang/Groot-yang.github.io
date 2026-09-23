@@ -1,4 +1,4 @@
-﻿# Personal website content
+# Personal website content
 
 The primary pages use `_layouts/profile.html` and `assets/css/profile.css`, independently of the legacy Academic Pages archive styles.
 
@@ -19,3 +19,5 @@ The primary pages use `_layouts/profile.html` and `assets/css/profile.css`, inde
 Build with the repository's existing Jekyll workflow (`bundle exec jekyll build`). No new production dependencies are required.
 
 Local validation: all eight primary routes were rendered with LiquidJS and checked in headless Edge at 320, 390, 768, and 1440 px, including language switching, internal links, publication counts, no-JavaScript navigation, and print styles. A native Jekyll build was not run because Ruby/Bundler is unavailable in the editing environment.
+
+Design: a white, single-column academic layout with plain text navigation and publication lists. No decorative cards, portrait, or promotional headline. Only the current affiliation is stored in the public profile and education data. Do not restore previous education or visiting affiliations. The alternate CV route redirects to `/cv/`.

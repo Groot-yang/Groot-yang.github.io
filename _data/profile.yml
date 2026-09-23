@@ -11,17 +11,13 @@
     "en": "School of Management, Beijing Institute of Technology",
     "zh": "北京理工大学 · 管理学院"
   },
-  "headline": {
-    "en": "Human-centered AI.\nMeaningful health insights.",
-    "zh": "以人为本的人工智能，\n面向真实需求的健康分析。"
-  },
   "intro": {
     "en": "I study how artificial intelligence can better understand people and support health decisions. My research connects explainable AI, large language models, and knowledge-driven methods with mental health support, digital therapeutics, and misinformation governance.",
     "zh": "我的研究聚焦人工智能如何理解人的需求并支持健康决策，将可解释人工智能、大语言模型与知识驱动方法应用于心理健康支持、数字疗法及错误信息治理。"
   },
   "bio": {
-    "en": "I am a PhD candidate in Management Science and Engineering at Beijing Institute of Technology, specializing in Management Information Systems and advised by Prof. Zhijun Yan and Prof. Qiuju Yin. From February 2025 to February 2026, I was a visiting doctoral student at the University of Delaware, working with Prof. Jiaheng Xie.",
-    "zh": "我目前在北京理工大学攻读管理科学与工程博士学位，研究方向为管理信息系统，导师为颜志军教授、尹秋菊教授。2025 年 2 月至 2026 年 2 月，我在美国特拉华大学进行博士访问研究，合作导师为 Jiaheng Xie 教授。"
+    "en": "I am a PhD candidate in Management Science and Engineering at the School of Management, Beijing Institute of Technology. My research specialization is Management Information Systems. I am advised by Prof. Zhijun Yan and Prof. Qiuju Yin.",
+    "zh": "我目前是北京理工大学管理学院管理科学与工程专业博士研究生，研究方向为管理信息系统，导师为颜志军教授、尹秋菊教授。"
   },
   "email": "yl0119@outlook.com",
   "scholar": "https://scholar.google.com/citations?user=GgNC50AAAAAJ",
@@ -84,51 +80,6 @@
       "detail": {
         "en": "Management Information Systems · Advisors: Zhijun Yan and Qiuju Yin",
         "zh": "管理信息系统方向 · 导师：颜志军教授、尹秋菊教授"
-      }
-    },
-    {
-      "date": "2025.02 — 2026.02",
-      "title": {
-        "en": "University of Delaware",
-        "zh": "美国特拉华大学"
-      },
-      "degree": {
-        "en": "Visiting Doctoral Student · Management Information Systems",
-        "zh": "访问博士生 · 管理信息系统"
-      },
-      "detail": {
-        "en": "Lerner College of Business & Economics · Advisor: Jiaheng Xie",
-        "zh": "Lerner 商业与经济学院 · 合作导师：Jiaheng Xie 教授"
-      }
-    },
-    {
-      "date": "2019.09 — 2022.06",
-      "title": {
-        "en": "Sichuan Agricultural University",
-        "zh": "四川农业大学"
-      },
-      "degree": {
-        "en": "Master’s in Business Administration",
-        "zh": "企业管理硕士"
-      },
-      "detail": {
-        "en": "College of Business and Tourism",
-        "zh": "商旅学院"
-      }
-    },
-    {
-      "date": "2015.09 — 2019.06",
-      "title": {
-        "en": "Sichuan Agricultural University",
-        "zh": "四川农业大学"
-      },
-      "degree": {
-        "en": "Bachelor’s in E-commerce",
-        "zh": "电子商务学士"
-      },
-      "detail": {
-        "en": "Business School",
-        "zh": "商学院"
       }
     }
   ],
@@ -593,8 +544,8 @@
       "event": "Philadelphia Operations and Technology Day",
       "title": "Probing Empathetic Dialogue for Mental Health Support: An Emotional Intelligence-enhanced Multi-agent Reinforcement Learning Approach",
       "place": {
-        "en": "Villanova University · Wayne, PA, USA",
-        "zh": "维拉诺瓦大学 · 美国宾夕法尼亚州"
+        "en": "Wayne, PA, USA",
+        "zh": "美国 · 宾夕法尼亚州韦恩"
       }
     },
     {
