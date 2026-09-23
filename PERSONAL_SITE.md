@@ -21,3 +21,5 @@ Build with the repository's existing Jekyll workflow (`bundle exec jekyll build`
 Local validation: all eight primary routes were rendered with LiquidJS and checked in headless Edge at 320, 390, 768, and 1440 px, including language switching, internal links, publication counts, no-JavaScript navigation, and print styles. A native Jekyll build was not run because Ruby/Bundler is unavailable in the editing environment.
 
 Design: a restrained personal website with a small portrait, a concise introduction, research summaries, and links to publication and talk pages. Full academic records live on separate pages. Keep the white background and avoid decorative cards or promotional headlines. Only the current affiliation is stored in the public profile and education data. Do not restore previous education or visiting affiliations. The alternate CV route redirects to `/cv/`.
+
+Typography uses self-hosted Source Serif 4 and a Noto Serif CJK subset for headings, with Source Sans 3 for body text. See `assets/fonts/README.md` for licenses and subset maintenance. Research navigation and sections list under-review manuscripts first in both languages.

@@ -1,12 +1,42 @@
+/* Self-hosted open fonts; licenses are included in assets/fonts. */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("../fonts/source-sans-3-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("../fonts/source-sans-3-semibold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("../fonts/source-serif-4-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Academic Serif SC";
+  src: url("../fonts/academic-serif-sc.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 /* Restrained personal website, with dedicated pages for full academic records. */
 :root {
-  --ink: #232323;
-  --muted: #636363;
+  --ink: #26282b;
+  --muted: #5d6269;
   --line: #e5e5e5;
   --link: #245780;
   --font:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-    "Microsoft YaHei", Arial, sans-serif;
+    "Source Sans 3", "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
+  --font-heading:
+    "Source Serif 4", "Academic Serif SC", Georgia, "Songti SC", serif;
 }
 * {
   box-sizing: border-box;
@@ -18,7 +48,7 @@ body {
   margin: 0;
   background: #fff;
   color: var(--ink);
-  font: 15px/1.75 var(--font);
+  font: 18px/1.75 var(--font);
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -46,16 +76,19 @@ h3 {
   line-height: 1.45;
 }
 h1 {
-  font-size: 32px;
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 42px;
+  font-weight: 400;
   letter-spacing: -0.02em;
 }
 h2 {
-  font-size: 20px;
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
 }
 h3 {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
 }
 button {
@@ -88,14 +121,15 @@ button {
   border-bottom: 1px solid var(--line);
 }
 .identity {
+  font-family: var(--font-heading);
   color: var(--ink);
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   white-space: nowrap;
 }
 .identity-zh {
   margin-left: 6px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--muted);
 }
@@ -103,7 +137,7 @@ button {
   display: flex;
   gap: 23px;
   margin-left: auto;
-  font-size: 13px;
+  font-size: 15px;
 }
 .main-nav a {
   color: var(--muted);
@@ -119,7 +153,7 @@ button {
   gap: 12px;
   padding-left: 20px;
   border-left: 1px solid var(--line);
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
 }
 .language-nav a {
@@ -129,16 +163,17 @@ button {
   padding-top: 48px;
 }
 .alternate-name {
+  font-family: var(--font-heading);
   margin-left: 10px;
   color: var(--muted);
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
 }
 .profile-role {
   margin-top: 13px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
 }
 .profile-links {
@@ -146,7 +181,7 @@ button {
   gap: 20px;
   flex-wrap: wrap;
   margin: 17px 0 28px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .biography p + p {
   margin-top: 15px;
@@ -167,7 +202,7 @@ button {
   gap: 18px;
 }
 .text-link {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
 }
 .publication-list {
@@ -176,7 +211,7 @@ button {
 }
 .paper {
   position: relative;
-  margin-bottom: 23px;
+  margin-bottom: 29px;
   break-inside: avoid;
 }
 .publication-list > .paper::before {
@@ -186,17 +221,17 @@ button {
   right: calc(100% + 10px);
   top: 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .paper h3 {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.65;
   font-weight: 600;
 }
 .paper-authors,
 .paper-venue {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.7;
   margin-top: 3px;
 }
@@ -209,7 +244,7 @@ button {
 }
 .author-role {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 .page-intro {
   padding-top: 43px;
@@ -218,22 +253,22 @@ button {
 .page-intro > p {
   margin-top: 12px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 .section-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 9px 24px;
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 17px;
 }
 .source-note {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
 }
 .count {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 .research-section .section-heading {
   justify-content: flex-start;
@@ -244,7 +279,7 @@ button {
 }
 .cv-sidebar {
   margin-bottom: 28px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .cv-sidebar > .eyebrow,
 .cv-sidebar > p {
@@ -265,7 +300,7 @@ button {
   margin-bottom: 16px;
 }
 .cv-section > p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 7px;
 }
 .education-row {
@@ -276,16 +311,16 @@ button {
   break-inside: avoid;
 }
 .date {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 .education-row .degree {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 4px;
 }
 .education-row .muted {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 4px;
 }
 .detail-row {
@@ -297,16 +332,16 @@ button {
   margin-bottom: 4px;
 }
 .detail-row p {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   margin-top: 4px;
 }
 .award {
-  font-size: 14px;
+  font-size: 16px;
 }
 .service-list {
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px 0 20px;
 }
 .inline-list {
@@ -315,7 +350,7 @@ button {
   gap: 7px 22px;
   padding: 0;
   list-style: none;
-  font-size: 13px;
+  font-size: 15px;
   margin: 10px 0;
 }
 .print-button {
@@ -324,7 +359,7 @@ button {
   border: 0;
   background: none;
   color: var(--link);
-  font-size: 13px;
+  font-size: 15px;
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -341,17 +376,17 @@ button {
   break-inside: avoid;
 }
 .talk-row .eyebrow {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 }
 .talk-row h2 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
   margin: 5px 0;
 }
 .talk-row .muted {
-  font-size: 12px;
+  font-size: 14px;
 }
 .site-footer {
   display: flex;
@@ -361,7 +396,7 @@ button {
   margin-bottom: 28px;
   padding-top: 17px;
   border-top: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .site-footer a {
@@ -390,30 +425,30 @@ button {
     padding-top: 31px;
   }
   .site-main {
-    font-size: 14px;
+    font-size: 16px;
   }
   .profile-links {
     gap: 9px 19px;
     margin-bottom: 23px;
   }
   h1 {
-    font-size: 29px;
+    font-size: 36px;
   }
   .alternate-name {
-    font-size: 19px;
+    font-size: 22px;
   }
   h2 {
-    font-size: 19px;
+    font-size: 24px;
   }
   .section {
     margin-top: 29px;
   }
   .paper h3 {
-    font-size: 13px;
+    font-size: 16px;
   }
   .paper-authors,
   .paper-venue {
-    font-size: 12px;
+    font-size: 14px;
   }
   .education-row {
     grid-template-columns: 1fr;
@@ -439,13 +474,13 @@ button {
     display: none;
   }
   .main-nav {
-    gap: 19px;
+    gap: 17px;
   }
   .section-heading {
     gap: 10px;
   }
   .text-link {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -480,18 +515,19 @@ button {
   transform-origin: 50% 37%;
 }
 .profile-summary h1 {
-  font-size: 36px;
+  font-size: 46px;
 }
 .profile-summary .profile-role {
   margin-top: 8px;
 }
 .profile-summary .biography {
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 23px;
+  max-width: 78ch;
+  font-size: 18px;
   line-height: 1.85;
 }
 .profile-summary .biography p + p {
-  margin-top: 11px;
+  margin-top: 15px;
 }
 .profile-summary .profile-links {
   margin: 20px 0 0;
@@ -511,11 +547,11 @@ button {
   gap: 30px;
 }
 .research-columns h3 {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 .research-columns p {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   line-height: 1.85;
 }
@@ -535,25 +571,25 @@ button {
 }
 .feature-venue {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 5px;
 }
 .home-feature h3 {
-  font-size: 17px;
+  font-size: 19px;
   margin-bottom: 7px;
 }
 .home-feature h3 a {
   color: var(--ink);
 }
 .home-feature > p:not(.feature-venue) {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   line-height: 1.85;
 }
 .feature-link {
   display: inline-block;
   margin-top: 7px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .home-updates {
   border-left: 1px solid var(--line);
@@ -564,10 +600,10 @@ button {
 }
 .home-update h3 {
   margin: 5px 0 8px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .home-update > p:not(.date) {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -601,10 +637,10 @@ button {
     margin-top: 0;
   }
   .profile-summary h1 {
-    font-size: 30px;
+    font-size: 38px;
   }
   .profile-summary .biography {
-    font-size: 14px;
+    font-size: 16px;
   }
   .home-research {
     margin-top: 32px;
@@ -657,19 +693,19 @@ button {
   .profile-summary h1 {
     grid-column: 1;
     grid-row: 1;
-    font-size: 28px;
+    font-size: 34px;
     align-self: start;
   }
   .profile-summary .alternate-name {
     display: block;
     margin-left: 0;
     margin-top: 1px;
-    font-size: 18px;
+    font-size: 20px;
   }
   .profile-summary .profile-role {
     grid-column: 1;
     grid-row: 2;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 9px;
   }
   .profile-summary .biography {

@@ -19,6 +19,8 @@
   <meta property="og:description" content="{{ p.intro[lang] | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/assets/images/monogram.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preload" href="{{ '/assets/fonts/source-sans-3-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/source-serif-4-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <script src="{{ '/assets/js/profile.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </head>
@@ -82,9 +84,9 @@
   {% else %}
     <header class="page-intro"><h1>{{ page.title }}</h1><p>{% if page.kind == 'publications' %}{{ t.research_intro }}{% elsif page.kind == 'cv' %}{{ t.cvintro }}{% else %}{{ t.talksintro }}{% endif %}</p>{% if page.kind == 'cv' %}<p class="print-identity">{{ p.name[lang] }} · {{ p.affiliation[lang] }}<br>{{ p.email }}</p><button class="button print-button" type="button" hidden>{{ t.print }} </button>{% endif %}</header>
     {% if page.kind == 'publications' %}
-      <nav class="section-nav" aria-label="{{ t.publications }}"><a href="#journal">{{ t.journal }}</a><a href="#review">{{ t.review }}</a><a href="#working">{{ t.working }}</a><a href="#conference">{{ t.conference }}</a></nav>
+      <nav class="section-nav" aria-label="{{ t.publications }}"><a href="#review">{{ t.review }}</a><a href="#journal">{{ t.journal }}</a><a href="#working">{{ t.working }}</a><a href="#conference">{{ t.conference }}</a></nav>
       <p class="source-note">{{ t.source_note }}</p>
-      {% assign groups = 'journal,review,working,conference' | split: ',' %}{% for group in groups %}<section class="section research-section" id="{{ group }}"><div class="section-heading"><h2>{{ t[group] }}</h2><span class="count" aria-hidden="true">{% assign papers = p.publications | where: 'group', group %}{{ papers.size }}</span></div><div class="publication-list">{% for paper in papers %}{% include profile-paper.html %}{% endfor %}</div></section>{% endfor %}
+      {% assign groups = 'review,journal,working,conference' | split: ',' %}{% for group in groups %}<section class="section research-section" id="{{ group }}"><div class="section-heading"><h2>{{ t[group] }}</h2><span class="count" aria-hidden="true">{% assign papers = p.publications | where: 'group', group %}{{ papers.size }}</span></div><div class="publication-list">{% for paper in papers %}{% include profile-paper.html %}{% endfor %}</div></section>{% endfor %}
       <a class="text-link" href="{{ p.scholar }}">Google Scholar </a>
     {% elsif page.kind == 'cv' %}
       <div class="cv-layout"><aside class="cv-sidebar"><p class="eyebrow">{{ p.name[lang] }}</p><p>{{ p.role[lang] }}</p><a href="mailto:{{ p.email }}">{{ p.email }}</a><nav aria-label="{{ t.cv }}"><a href="#education">{{ t.education }}</a><a href="#projects">{{ t.projects }}</a><a href="#patents">{{ t.patents }}</a><a href="#service">{{ t.service }}</a><a href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.record }}</a></nav></aside><div class="cv-content">
