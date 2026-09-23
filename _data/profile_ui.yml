@@ -43,7 +43,14 @@
     "recent_talks": "Recent talks",
     "all_talks": "All talks",
     "read_research": "Publication details",
-    "about_label": "About"
+    "about_label": "About",
+    "chatbot_title": "Empathetic chatbot research",
+    "chatbot_alt": "Concept illustration of a person exchanging messages with an empathetic chatbot, with a connected network representing reasoning.",
+    "chatbot_caption": "Concept illustration of empathetic dialogue",
+    "chatbot_step_1": "User expression",
+    "chatbot_step_2": "Emotions & support needs",
+    "chatbot_step_3": "Empathetic response",
+    "chatbot_link": "About this research"
   },
   "zh": {
     "home": "首页",
@@ -89,6 +96,13 @@
     "recent_talks": "近期报告",
     "all_talks": "全部报告",
     "read_research": "论文详情",
-    "about_label": "关于我"
+    "about_label": "关于我",
+    "chatbot_title": "共情 Chatbot 研究",
+    "chatbot_alt": "共情对话概念示意：用户与聊天机器人交换消息，连接网络表示回复背后的推理过程。",
+    "chatbot_caption": "共情对话的研究概念示意",
+    "chatbot_step_1": "用户表达",
+    "chatbot_step_2": "情绪与支持需求",
+    "chatbot_step_3": "共情回复",
+    "chatbot_link": "了解这项研究"
   }
 }

@@ -23,3 +23,5 @@ Local validation: all eight primary routes were rendered with LiquidJS and check
 Design: a restrained personal website with a small portrait, a concise introduction, research summaries, and links to publication and talk pages. Full academic records live on separate pages. Keep the white background and avoid decorative cards or promotional headlines. Only the current affiliation is stored in the public profile and education data. Do not restore previous education or visiting affiliations. The alternate CV route redirects to `/cv/`.
 
 Typography uses self-hosted Source Serif 4 and a Noto Serif CJK subset for headings, with Source Sans 3 for body text. See `assets/fonts/README.md` for licenses and subset maintenance. Research navigation and sections list under-review manuscripts first in both languages.
+
+The homepage features `assets/images/empathetic-chatbot.svg`, an original vector concept illustration. Localized stages and caption live in `profile_ui.yml`. It illustrates the topic, not a measured result or a deployed product interface, and links to the empathetic-dialogue manuscript.
