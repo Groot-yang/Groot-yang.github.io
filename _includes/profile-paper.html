@@ -1,6 +1,6 @@
 {% assign paper_visual = p.highlights | where: 'paper', paper.id | first %}
 <article class="paper{% if paper_visual.image and page.kind == 'publications' %} paper-with-image{% endif %}" id="paper-{{ paper.id }}">
-  {% if paper_visual.image and page.kind == 'publications' %}<img class="paper-thumbnail" src="{{ paper_visual.image | relative_url }}" alt="{{ paper_visual.image_alt[lang] }}" width="400" height="300">{% endif %}
+  {% if paper_visual.image and page.kind == 'publications' %}<img class="paper-thumbnail" src="{{ paper_visual.image | relative_url }}" alt="{{ paper_visual.image_alt[lang] }}" title="Photo: {{ paper_visual.image_credit.author | escape }}" decoding="async" width="400" height="300">{% endif %}
   <div class="paper-content">
     <h3>{{ paper.title }}</h3>
     <p class="paper-authors">{{ paper.authors | escape | replace: 'Yang, L.', '<strong>Yang, L.</strong>' | replace: '杨亮', '<strong>杨亮</strong>' }}</p>

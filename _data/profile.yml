@@ -579,10 +579,15 @@
         "en": "An emotional intelligence-enhanced multi-agent reinforcement learning approach to empathetic dialogue generation.",
         "zh": "通过情绪智力增强的多智能体强化学习方法，研究共情对话生成。"
       },
-      "image": "/assets/images/empathetic-chatbot.svg",
+      "image": "/assets/images/research-chatbot.jpg",
       "image_alt": {
-        "en": "A user and chatbot exchange messages, illustrating the empathetic dialogue generation study.",
-        "zh": "用户与聊天机器人交换消息，对应情绪智力增强的共情对话生成研究。"
+        "en": "A smartphone displaying the ChatGPT interface beside a laptop.",
+        "zh": "笔记本电脑旁的手机显示 ChatGPT 聊天界面。"
+      },
+      "image_credit": {
+        "author": "Tim Witzdam",
+        "source": "https://unsplash.com/photos/e4I4RQJchV8",
+        "license": "Unsplash License"
       }
     },
     {
@@ -595,10 +600,15 @@
         "en": "Combining LLM-guided structure discovery and Bayesian causal modeling for coronary heart disease prediction.",
         "zh": "结合大语言模型引导的结构发现与贝叶斯因果建模，研究冠心病风险预测。"
       },
-      "image": "/assets/images/coronary-causal-model.svg",
+      "image": "/assets/images/research-heart-monitor.jpg",
       "image_alt": {
-        "en": "A heart health record and a causal graph illustrate the coronary heart disease prediction study.",
-        "zh": "心脏健康记录与因果图，对应冠心病因果预测研究。"
+        "en": "A medical monitor displaying heart rate and vital signs.",
+        "zh": "医疗监护仪显示心率波形与生命体征。"
+      },
+      "image_credit": {
+        "author": "Jair Lázaro",
+        "source": "https://unsplash.com/photos/0lrJo37r6Nk",
+        "license": "Unsplash License"
       }
     },
     {
@@ -611,10 +621,15 @@
         "en": "A systematic review of digital therapeutics and their role in disease self-management.",
         "zh": "系统梳理数字疗法研究，关注其在疾病自我管理中的应用。"
       },
-      "image": "/assets/images/digital-therapeutics-review.svg",
+      "image": "/assets/images/research-digital-health.jpg",
       "image_alt": {
-        "en": "Research papers and a health app illustrate the systematic review of digital therapeutics.",
-        "zh": "研究文献与健康应用，对应数字疗法系统性文献综述。"
+        "en": "A smartwatch worn at a desk with a tablet and a stethoscope.",
+        "zh": "佩戴智能手表的手臂，桌上放有平板电脑与听诊器。"
+      },
+      "image_credit": {
+        "author": "Nappy",
+        "source": "https://unsplash.com/photos/F6ESFfpHjYc",
+        "license": "Unsplash License"
       }
     },
     {
@@ -627,10 +642,15 @@
         "en": "Predicting and interpreting the answers received by people seeking support in online mental health communities.",
         "zh": "通过多任务学习，预测并解释在线心理健康社区中求助者获得的回复。"
       },
-      "image": "/assets/images/mental-health-community.svg",
+      "image": "/assets/images/research-online-support.jpg",
       "image_alt": {
-        "en": "A community question branches into replies, illustrating the study of received answers in mental health communities.",
-        "zh": "社区提问与多条回复，对应心理健康社区回复预测与解释研究。"
+        "en": "Hands typing on a laptop keyboard.",
+        "zh": "双手在笔记本电脑键盘上输入文字。"
+      },
+      "image_credit": {
+        "author": "Thomas Lefebvre",
+        "source": "https://commons.wikimedia.org/wiki/File:Typing_on_a_mac_(Unsplash).jpg",
+        "license": "CC0 1.0"
       }
     }
   ]

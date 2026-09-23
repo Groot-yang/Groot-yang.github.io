@@ -68,7 +68,7 @@
         <div class="section-heading"><h2 id="selected-title">{{ t.selected }}</h2><a class="text-link" href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.all }}</a></div>
         {% for highlight in p.highlights %}{% assign paper = p.publications | where: 'id', highlight.paper | first %}
         <article class="home-feature" id="research-{{ paper.id }}">
-          <a class="research-thumbnail" href="{{ prefix | append: '/publications/' | relative_url }}#paper-{{ paper.id }}" aria-label="{{ t.read_research }}: {{ paper.title | escape }}"><img src="{{ highlight.image | relative_url }}" alt="{{ highlight.image_alt[lang] }}" width="400" height="300"></a>
+          <a class="research-thumbnail" href="{{ prefix | append: '/publications/' | relative_url }}#paper-{{ paper.id }}" aria-label="{{ t.read_research }}: {{ paper.title | escape }}"><img src="{{ highlight.image | relative_url }}" alt="{{ highlight.image_alt[lang] }}" title="Photo: {{ highlight.image_credit.author | escape }}" decoding="async" width="400" height="300"></a>
           <div class="feature-copy">
             <p class="feature-venue">{{ paper.venue }} · {% if paper.year != '' %}{{ paper.year }}{% else %}{{ paper.detail[lang] }}{% endif %}</p>
             <h3><a href="{{ prefix | append: '/publications/' | relative_url }}#paper-{{ paper.id }}" title="{{ paper.title | escape }}">{{ highlight.topic[lang] }}</a></h3>
