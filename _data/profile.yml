@@ -194,6 +194,10 @@
       "role": {
         "en": "",
         "zh": ""
+      },
+      "overview": {
+        "en": "This study develops EID-MARL, a dialogue model that makes the choice of an empathetic response strategy explicit. Specialized agents exchange emotional information through a learned communication structure, while an expectation-maximization method assigns feedback to individual communication links. Evaluations using automated assessments and medical expert reviews examine response quality, robustness, and generalization.",
+        "zh": "本研究提出 EID-MARL 共情对话模型，将回应策略的选择显式纳入对话生成过程。不同智能体通过可学习的通信结构交换情绪信息，并利用期望最大化方法将反馈分配到具体的智能体通信连接。研究结合自动化评估与医学专家评价，考察生成回应的质量、鲁棒性和泛化能力。"
       }
     },
     {
@@ -211,6 +215,10 @@
       "role": {
         "en": "Co-first author",
         "zh": "共同第一作者"
+      },
+      "overview": {
+        "en": "This study focuses on the implicit social support needs expressed in newly posted questions. It simulates a possible answer and uses gold-answer guided attentive contrastive learning to infer those needs. The approach explores how answer-side information can help interpret a question when an actual response is not yet available.",
+        "zh": "本研究关注新发布问题中隐含的社会支持需求，通过模拟可能的回答，并结合标准回答引导的注意力对比学习，推断提问者的需求。其核心思路是在真实回答尚未出现时，利用模拟回答所提供的信息辅助理解问题。"
       }
     },
     {
@@ -466,6 +474,10 @@
       "role": {
         "en": "",
         "zh": ""
+      },
+      "overview": {
+        "en": "This paper introduces EID-MARL for empathetic dialogue in mental health support. The framework separates response generation into three cognitive stages and uses four specialized agents to identify fine-grained emotional cues. Multi-round communication and link-level reward attribution coordinate the agents; experiments on ESConv compare the approach with competing dialogue models.",
+        "zh": "本文面向心理健康支持中的共情对话，提出 EID-MARL 框架，将回应生成划分为三个认知阶段，并通过四个专门的智能体识别细粒度情绪线索。模型利用多轮通信与连接层面的奖励分配协调智能体，在 ESConv 数据集上与其他对话模型进行实验比较。"
       }
     },
     {
@@ -500,6 +512,10 @@
       "role": {
         "en": "",
         "zh": ""
+      },
+      "overview": {
+        "en": "This paper investigates how the timing of social media posts can inform the detection of depression and its symptoms. The proposed TTMCNet combines a Transformer with temporal relative positional encoding and a decay term to model relationships between posting times and text. Multi-task contrastive learning captures shared and distinct patterns across depression and its symptoms, with evaluation against benchmark models.",
+        "zh": "本文研究社交媒体发帖的时间模式如何帮助识别抑郁及其症状。提出的 TTMCNet 在 Transformer 中引入时间相对位置编码与衰减项，建模发帖时间和文本之间的关联，并利用多任务对比学习捕捉抑郁及不同症状之间的共性与差异，通过基准模型比较验证方法表现。"
       }
     },
     {
@@ -517,6 +533,10 @@
       "role": {
         "en": "Co-first author",
         "zh": "共同第一作者"
+      },
+      "overview": {
+        "en": "This paper studies how to classify social support needs in health questions when labeled data are limited. Its answer-enhanced semi-supervised deep learning approach (AESSDL) uses a dynamic two-dimensional interaction kernel to model question-answer relationships and quality-aware attention to weight different answers. The evaluation compares it with question classification and semi-supervised learning baselines, informing the matching of questions with relevant responders and resources.",
+        "zh": "本文研究在标注数据有限的情况下，如何识别健康提问中的社会支持需求。提出的回答增强半监督深度学习方法 AESSDL，利用动态二维交互核刻画问题与回答之间的关系，并通过质量感知注意力为不同回答分配权重。研究与问题分类及半监督学习基线进行比较，为匹配合适的回答者与相关资源提供参考。"
       }
     }
   ],

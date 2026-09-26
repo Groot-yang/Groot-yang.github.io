@@ -5,5 +5,8 @@
     <h3>{{ paper.title }}</h3>
     <p class="paper-authors">{{ paper.authors | escape | replace: 'Yang, L.', '<strong>Yang, L.</strong>' | replace: '杨亮', '<strong>杨亮</strong>' }}</p>
     <p class="paper-venue">{% if paper.venue != '' %}<em>{{ paper.venue }}</em>. {% endif %}{% if paper.year != '' %}{{ paper.year }}. {% endif %}{{ paper.detail[lang] }}.{% if paper.role[lang] != '' %} <span class="author-role">{{ paper.role[lang] }}.</span>{% endif %}</p>
+    {% if page.kind == 'publications' and paper.overview[lang] %}
+    <div class="paper-overview"><h4>{{ t.paper_overview }}</h4><p>{{ paper.overview[lang] | escape }}</p></div>
+    {% endif %}
   </div>
 </article>

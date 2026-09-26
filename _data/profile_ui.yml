@@ -44,7 +44,10 @@
     "all_talks": "All talks",
     "read_research": "Publication details",
     "about_label": "About",
-    "figure_link": "View full-size figure"
+    "figure_link": "View full-size figure",
+    "paper_overview": "Research overview",
+    "show_overview": "Read overview",
+    "hide_overview": "Hide overview"
   },
   "zh": {
     "home": "首页",
@@ -91,6 +94,9 @@
     "all_talks": "全部报告",
     "read_research": "论文详情",
     "about_label": "关于我",
-    "figure_link": "查看原图"
+    "figure_link": "查看原图",
+    "paper_overview": "研究简介",
+    "show_overview": "展开研究简介",
+    "hide_overview": "收起研究简介"
   }
 }

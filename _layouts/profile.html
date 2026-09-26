@@ -73,6 +73,12 @@
             <p class="feature-venue">{{ paper.venue }} · {% if paper.year != '' %}{{ paper.year }}{% else %}{{ paper.detail[lang] }}{% endif %}</p>
             <h3><a href="{{ prefix | append: '/publications/' | relative_url }}#paper-{{ paper.id }}" title="{{ paper.title | escape }}">{{ highlight.topic[lang] }}</a></h3>
             <p class="feature-summary">{{ highlight.summary[lang] }}</p>
+            {% if paper.overview[lang] %}
+            <details class="feature-details">
+              <summary><span class="details-show">{{ t.show_overview }}</span><span class="details-hide">{{ t.hide_overview }}</span></summary>
+              <p>{{ paper.overview[lang] | escape }}</p>
+            </details>
+            {% endif %}
             <a class="feature-link" href="{{ prefix | append: '/publications/' | relative_url }}#paper-{{ paper.id }}">{{ t.read_research }} <span aria-hidden="true">→</span></a>
           </div>
         </article>
