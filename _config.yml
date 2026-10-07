@@ -13,10 +13,10 @@ title                    : "Liang Yang | AI for Healthcare"  # Update this with 
 title_separator          : "-"
 name                     : &name "Liang Yang"
 description              : &description "PhD candidate in Management Information Systems, focusing on AI-enabled healthcare, empathetic dialogue systems, and digital health analytics."
-url                      : https://groot-yang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://liang-leon-yang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "groot-yang/groot-yang.github.io"
+repository               : "liang-leon-yang/liang-leon-yang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -29,7 +29,7 @@ author:
   bio              : "PhD Candidate in Management Information Systems at Beijing Institute of Technology"
   location         : "Beijing, China"
   employer         : "Beijing Institute of Technology"
-  uri              : "https://groot-yang.github.io"
+  uri              : "https://liang-leon-yang.github.io"
   email            : "yl0119@outlook.com" 
 
   # Academic websites
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Groot-yang"
+  github           : "liang-leon-yang"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
