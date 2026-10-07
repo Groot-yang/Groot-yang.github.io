@@ -47,7 +47,8 @@
     "figure_link": "View full-size figure",
     "paper_overview": "Research overview",
     "show_overview": "Read overview",
-    "hide_overview": "Hide overview"
+    "hide_overview": "Hide overview",
+    "research_focus": "Digital mental health"
   },
   "zh": {
     "home": "首页",
@@ -97,6 +98,7 @@
     "figure_link": "查看原图",
     "paper_overview": "研究简介",
     "show_overview": "展开研究简介",
-    "hide_overview": "收起研究简介"
+    "hide_overview": "收起研究简介",
+    "research_focus": "数字心理健康"
   }
 }
