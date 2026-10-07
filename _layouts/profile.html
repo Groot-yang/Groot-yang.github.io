@@ -48,12 +48,6 @@
           <h1 id="profile-title">{{ p.name[lang] }} <span class="alternate-name" lang="{% if lang == 'zh' %}en{% else %}zh-CN{% endif %}">{% if lang == 'zh' %}Liang Yang{% else %}杨亮{% endif %}</span></h1>
           <p class="profile-role">{{ p.affiliation[lang] }}</p>
           <p class="research-focus">
-            <svg class="wellbeing-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-              <circle cx="16" cy="16" r="15" fill="#edf7f4"/>
-              <circle class="wellbeing-ring" cx="16" cy="16" r="12" fill="none" stroke="#badbd2" stroke-width="1" opacity=".7"/>
-              <path class="wellbeing-wave" d="M7 17c3 0 3-5 6-5s3 8 6 8 3-5 6-5" pathLength="1" fill="none" stroke="#367b77" stroke-width="1.7" stroke-linecap="round"/>
-              <circle cx="25" cy="15" r="1.7" fill="#8a87af"/>
-            </svg>
             <span>{{ t.research_focus }}</span>
           </p>
         </div>
