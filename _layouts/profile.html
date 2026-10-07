@@ -47,9 +47,6 @@
         <div class="profile-heading">
           <h1 id="profile-title">{{ p.name[lang] }} <span class="alternate-name" lang="{% if lang == 'zh' %}en{% else %}zh-CN{% endif %}">{% if lang == 'zh' %}Liang Yang{% else %}杨亮{% endif %}</span></h1>
           <p class="profile-role">{{ p.affiliation[lang] }}</p>
-          <p class="research-focus">
-            <span>{{ t.research_focus }}</span>
-          </p>
         </div>
         <div class="biography"><p>{{ p.bio[lang] }}</p><p>{{ p.intro[lang] }}</p></div>
         <nav class="profile-links" aria-label="{{ t.contact }}">
