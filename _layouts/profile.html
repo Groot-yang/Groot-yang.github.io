@@ -1,6 +1,5 @@
 {% assign lang = page.lang | default: 'en' %}
 {% assign p = site.data.profile %}
-{% assign selected_papers = p.publications | where: 'selected', true %}
 {% assign t = site.data.profile_ui[lang] %}
 {% assign prefix = '' %}{% if lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}
 <!doctype html>
@@ -106,15 +105,17 @@
     {% if page.kind == 'publications' %}
       {% assign groups = 'review,journal,working,conference' | split: ',' %}
       <nav class="section-nav" aria-label="{{ t.publications }}">
-        {% for group in groups %}{% assign papers = selected_papers | where: 'group', group %}{% if papers.size > 0 %}<a href="#{{ group }}">{{ t[group] }}</a>{% endif %}{% endfor %}
+        {% for group in groups %}{% assign papers = p.publications | where: 'group', group %}{% if papers.size > 0 %}<a href="#{{ group }}">{{ t[group] }}</a>{% endif %}{% endfor %}
       </nav>
       <p class="source-note">{{ t.source_note }}</p>
       {% for group in groups %}
-        {% assign papers = selected_papers | where: 'group', group %}
+        {% assign papers = p.publications | where: 'group', group %}
         {% if papers.size > 0 %}
         <section class="section research-section" id="{{ group }}">
           <div class="section-heading"><h2>{{ t[group] }}</h2><span class="count" aria-hidden="true">{{ papers.size }}</span></div>
-          <div class="publication-list">{% for paper in papers %}{% include profile-paper.html %}{% endfor %}</div>
+          {% assign group_has_figure = false %}
+          {% for paper in papers %}{% assign visual = p.highlights | where: 'paper', paper.id | first %}{% if visual.image %}{% assign group_has_figure = true %}{% endif %}{% endfor %}
+          <div class="publication-list{% if group_has_figure %} publication-list-with-figures{% endif %}">{% for paper in papers %}{% include profile-paper.html %}{% endfor %}</div>
         </section>
         {% endif %}
       {% endfor %}
@@ -127,7 +128,7 @@
       <section id="patents" class="cv-section"><h2>{{ t.patents }}</h2><p class="source-note">{{ t.patent_note }}</p>{% for item in p.patents %}<article class="detail-row"><h3>{{ item.title[lang] }}</h3><p>{{ item.detail[lang] }}</p></article>{% endfor %}</section>
       <section class="cv-section"><h2>{{ t.award }}</h2><div class="award">{{ p.award[lang] }}</div></section>
       <section id="service" class="cv-section"><h2>{{ t.service }}</h2><h3>{{ t.reviewer }}</h3><ul class="service-list">{% for journal in p.journals %}<li>{{ journal }}</li>{% endfor %}</ul><h3>{{ t.conference_reviewer }}</h3><ul class="inline-list">{% for conference in p.conferences %}<li>{{ conference }}</li>{% endfor %}</ul></section>
-      <section class="cv-section"><h2>{{ t.record }}</h2><p>{{ t.source_note }}</p><a class="text-link no-print" href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.all }}</a><div class="print-publications">{% for paper in selected_papers %}{% include profile-paper.html %}{% endfor %}</div></section>
+      <section class="cv-section"><h2>{{ t.record }}</h2><p>{{ t.source_note }}</p><a class="text-link no-print" href="{{ prefix | append: '/publications/' | relative_url }}">{{ t.all }}</a><div class="print-publications">{% for paper in p.publications %}{% include profile-paper.html %}{% endfor %}</div></section>
       </div></div>
     {% elsif page.kind == 'talks' %}<div class="talk-list">{% for talk in p.talks %}<article class="talk-row"><p class="date">{{ talk.date }}</p><div><p class="eyebrow">{{ talk.event }}</p><h2>{{ talk.title }}</h2><p class="muted">{{ talk.place[lang] }}</p></div></article>{% endfor %}</div>{% endif %}
   {% endif %}

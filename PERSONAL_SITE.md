@@ -26,7 +26,7 @@ Typography uses self-hosted Source Sans 3 for headings, body text, and navigatio
 
 Selected research uses figures extracted from the actual papers, with source records in `assets/images/FIGURE_SOURCES.md`. Render figures with `object-fit: contain` and allow opening full-size images. Never substitute stock photos or figures from a different version of a paper. A selected paper without its own source figure remains text-only.
 
-Only the five selected papers are displayed on the homepage, research page, and printed CV. Research navigation contains under-review/revision papers first and ICIS conference papers next. Keep the other publication records in data for maintenance, but do not render a full publication list or an “All publications” link.
+The homepage showcases the five selected papers. The Research page and printed CV include every publication in the profile data, preserving complete titles, author lists, venues, years, review stages, author roles, and available overviews. Research navigation lists under-review/revision papers, journal articles, working papers, and conference papers in that order. Layout or animation changes must not reduce the scope of displayed research content.
 
 The profile photo is the user-provided coastal portrait at `images/portrait-coast.jpg`, used by the bilingual homepage and legacy author profile. Keep the supplied image unchanged; the face and upper body are framed with CSS in `.profile-avatar img`.
 
