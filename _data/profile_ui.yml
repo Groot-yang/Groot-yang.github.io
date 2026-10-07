@@ -48,7 +48,22 @@
     "paper_overview": "Research overview",
     "show_overview": "Read overview",
     "hide_overview": "Hide overview",
-    "research_focus": "Digital mental health"
+    "research_focus": "Digital mental health",
+    "gallery": {
+      "title": "Research in motion",
+      "pause": "Pause",
+      "play": "Play",
+      "previous": "Previous research illustration",
+      "next": "Next research illustration",
+      "empathy": "Empathetic AI",
+      "empathy_text": "Emotion-aware conversations",
+      "support": "Social support",
+      "support_text": "Understanding needs, connecting people",
+      "analytics": "Explainable health AI",
+      "analytics_text": "Making evidence and predictions interpretable",
+      "trust": "Trustworthy information",
+      "trust_text": "Knowledge-guided misinformation detection"
+    }
   },
   "zh": {
     "home": "首页",
@@ -99,6 +114,21 @@
     "paper_overview": "研究简介",
     "show_overview": "展开研究简介",
     "hide_overview": "收起研究简介",
-    "research_focus": "数字心理健康"
+    "research_focus": "数字心理健康",
+    "gallery": {
+      "title": "研究方向 · 动态展示",
+      "pause": "暂停",
+      "play": "播放",
+      "previous": "上一项研究动画",
+      "next": "下一项研究动画",
+      "empathy": "共情对话",
+      "empathy_text": "理解情绪，回应心理健康需求",
+      "support": "社会支持",
+      "support_text": "识别支持需求，连接人与人",
+      "analytics": "可解释健康分析",
+      "analytics_text": "理解证据与预测背后的关系",
+      "trust": "可信健康信息",
+      "trust_text": "以知识图谱识别心理健康错误信息"
+    }
   }
 }

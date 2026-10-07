@@ -69,6 +69,7 @@
         <img src="{{ '/images/portrait-coast.jpg' | relative_url }}" alt="{{ p.name[lang] }}" width="1280" height="1920" fetchpriority="high">
       </div>
     </section>
+    {% include profile-research-strip.html %}
     <section class="home-research" aria-labelledby="research-title">
       <h2 id="research-title">{{ t.research }}</h2>
       <div class="research-list">{% for item in p.research %}<article><h3>{{ item.title[lang] }}</h3><p>{{ item.text[lang] }}</p></article>{% endfor %}</div>

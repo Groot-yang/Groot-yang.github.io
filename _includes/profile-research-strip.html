@@ -1,0 +1,98 @@
+<section class="research-gallery" aria-labelledby="gallery-title">
+  <div class="gallery-heading">
+    <h2 id="gallery-title">{{ t.gallery.title }}</h2>
+    <div class="gallery-controls">
+      <button class="gallery-toggle" type="button" data-pause-label="{{ t.gallery.pause }}" data-play-label="{{ t.gallery.play }}" hidden>
+        <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><g class="pause-symbol"><path d="M5 3v10M11 3v10" fill="none" stroke="currentColor" stroke-width="2"/></g><path class="play-symbol" d="m5 3 8 5-8 5Z" fill="currentColor"/></svg>
+        <span>{{ t.gallery.pause }}</span>
+      </button>
+      <button class="gallery-arrow" type="button" data-direction="-1" aria-label="{{ t.gallery.previous }}" aria-controls="research-scenes" hidden><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m12 5-5 5 5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="gallery-arrow" type="button" data-direction="1" aria-label="{{ t.gallery.next }}" aria-controls="research-scenes" hidden><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m8 5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+  <div class="research-scenes" id="research-scenes">
+    <a class="research-scene" href="{{ prefix | append: '/publications/#paper-empathy' | relative_url }}">
+      <svg class="scene-art scene-empathy" viewBox="0 0 360 220" aria-hidden="true" focusable="false">
+        <rect width="360" height="220" rx="10" fill="#edf5f1"/>
+        <circle cx="304" cy="29" r="91" fill="#e3efea"/><circle cx="36" cy="205" r="72" fill="#e6eeef"/>
+        <path d="M0 184c65-36 91 35 167 10s127-60 193-27" fill="none" stroke="#cfdfd8"/>
+        <g fill="none" stroke="#d2e2db"><circle cx="289" cy="158" r="21"/><circle cx="289" cy="158" r="32"/></g>
+        <rect x="63" y="35" width="234" height="153" rx="14" fill="#fff" stroke="#d8e5df"/>
+        <circle cx="82" cy="51" r="3" fill="#b6d2c7"/><path d="M94 51h53" stroke="#cbd9d3" stroke-width="3" stroke-linecap="round"/>
+        <path d="M75 64h210" stroke="#eef2f0"/>
+        <g class="scene-motion dialogue-message dialogue-question">
+          <path d="M111 77h136a9 9 0 0 1 9 9v24a9 9 0 0 1-9 9H127l-16 9V86a9 9 0 0 1 9-9Z" fill="#eeedf7"/>
+          <path d="M126 93h93M126 104h64" stroke="#aaa5c8" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="275" cy="93" r="11" fill="#d8d3ec"/><circle cx="275" cy="90" r="3" fill="#8479a6"/><path d="M269 100a6 6 0 0 1 12 0" fill="#8479a6"/>
+        </g>
+        <g class="scene-motion dialogue-message dialogue-answer">
+          <path d="M111 135h124a9 9 0 0 1 9 9v19a9 9 0 0 1-9 9H111l-13 8v-36a9 9 0 0 1 9-9Z" fill="#deeee6"/>
+          <path d="M116 149h105M116 160h74" stroke="#74a493" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="82" cy="150" r="11" fill="#c6e0d4"/><path d="M76 150c2 0 2-4 4-4s2 8 4 8 2-4 4-4" fill="none" stroke="#4f8875" stroke-width="1.5" stroke-linecap="round"/>
+        </g>
+        <g class="scene-motion dialogue-typing" fill="#7da494"><circle cx="119" cy="151" r="3"/><circle cx="132" cy="151" r="3"/><circle cx="145" cy="151" r="3"/></g>
+        <g class="scene-motion empathy-orbit" fill="#9cbbaf"><circle cx="36" cy="73" r="3"/><circle cx="324" cy="119" r="2.5"/><circle cx="308" cy="190" r="2"/></g>
+      </svg>
+      <span class="scene-title">{{ t.gallery.empathy }} <span aria-hidden="true">↗</span></span>
+      <span class="scene-description">{{ t.gallery.empathy_text }}</span>
+    </a>
+    <a class="research-scene" href="{{ prefix | append: '/publications/#paper-support' | relative_url }}">
+      <svg class="scene-art scene-support" viewBox="0 0 360 220" aria-hidden="true" focusable="false">
+        <rect width="360" height="220" rx="10" fill="#f1eff8"/>
+        <circle cx="39" cy="17" r="84" fill="#eae6f3"/><circle cx="333" cy="218" r="98" fill="#e9e9f2"/>
+        <g fill="none" stroke="#ddd7eb"><circle cx="180" cy="110" r="67"/><circle cx="180" cy="110" r="92" stroke-dasharray="3 7"/></g>
+        <g stroke="#c3b9d8" stroke-width="1.5"><path d="m180 110-80-48M180 110l85-48M180 110l-69 62M180 110l69 62"/></g>
+        <g class="scene-motion support-halo" fill="none" stroke="#b8add2"><circle cx="180" cy="110" r="37"/></g>
+        <circle cx="180" cy="110" r="30" fill="#fff" stroke="#d1c7e3"/>
+        <path d="M177 96h9a8 8 0 0 1 8 8v6a8 8 0 0 1-8 8h-10l-10 7v-21a8 8 0 0 1 8-8Z" fill="#e9e3f3"/>
+        <path d="M174 104h12M174 111h8" stroke="#9988b5" stroke-width="2" stroke-linecap="round"/>
+        <g fill="#fff" stroke="#d1c7e3"><circle cx="100" cy="62" r="21"/><circle cx="265" cy="62" r="21"/><circle cx="111" cy="172" r="21"/><circle cx="249" cy="172" r="21"/></g>
+        <g fill="#aa9bc2"><circle cx="100" cy="57" r="5"/><path d="M90 72a10 10 0 0 1 20 0Z"/><circle cx="265" cy="57" r="5"/><path d="M255 72a10 10 0 0 1 20 0Z"/></g>
+        <g fill="#89ad9f"><circle cx="111" cy="167" r="5"/><path d="M101 182a10 10 0 0 1 20 0Z"/><circle cx="249" cy="167" r="5"/><path d="M239 182a10 10 0 0 1 20 0Z"/></g>
+        <circle class="scene-motion support-signal signal-one" cx="100" cy="62" r="4" fill="#8e7bae"/>
+        <circle class="scene-motion support-signal signal-two" cx="180" cy="110" r="4" fill="#679b89"/>
+        <circle class="scene-motion support-signal signal-three" cx="180" cy="110" r="4" fill="#679b89"/>
+        <g class="scene-motion support-spark" fill="#b2a3c8"><circle cx="51" cy="123" r="2"/><circle cx="306" cy="128" r="3"/><circle cx="214" cy="25" r="2"/></g>
+      </svg>
+      <span class="scene-title">{{ t.gallery.support }} <span aria-hidden="true">↗</span></span>
+      <span class="scene-description">{{ t.gallery.support_text }}</span>
+    </a>
+    <a class="research-scene" href="{{ prefix | append: '/publications/#paper-bayesian' | relative_url }}">
+      <svg class="scene-art scene-analytics" viewBox="0 0 360 220" aria-hidden="true" focusable="false">
+        <rect width="360" height="220" rx="10" fill="#eef3f8"/>
+        <circle cx="307" cy="29" r="88" fill="#e4edf4"/><circle cx="19" cy="214" r="72" fill="#e5eff0"/>
+        <rect x="42" y="35" width="276" height="152" rx="13" fill="#fff" stroke="#d6e1eb"/>
+        <circle cx="61" cy="51" r="3" fill="#96b9cf"/><path d="M72 51h66" stroke="#c4d6e1" stroke-width="3" stroke-linecap="round"/>
+        <path d="M54 64h252M193 75v99" stroke="#edf1f5"/>
+        <g fill="none" stroke="#bfd0de" stroke-width="1.5"><path d="M93 91h54M93 91l29 49M147 91l-25 49M122 140l35 27"/></g>
+        <path class="scene-motion evidence-flow" d="M93 91h54l-25 49 35 27" pathLength="1" fill="none" stroke="#578cae" stroke-width="2" stroke-linecap="round"/>
+        <g fill="#e6eef5" stroke="#a9c4d6"><circle cx="93" cy="91" r="10"/><circle cx="147" cy="91" r="10"/><circle cx="122" cy="140" r="12"/><circle cx="157" cy="167" r="8"/></g>
+        <circle class="scene-motion evidence-node" cx="122" cy="140" r="5" fill="#6494b1"/>
+        <g stroke="#d5e0e9" stroke-width="3" stroke-linecap="round"><path d="M212 88h36M212 112h20M212 136h29M212 160h23"/></g>
+        <g fill="#89abc4"><rect class="scene-motion analysis-bar bar-one" x="258" y="83" width="40" height="9" rx="4.5"/><rect class="scene-motion analysis-bar bar-two" x="258" y="107" width="28" height="9" rx="4.5"/><rect class="scene-motion analysis-bar bar-three" x="258" y="131" width="35" height="9" rx="4.5"/><rect class="scene-motion analysis-bar bar-four" x="258" y="155" width="18" height="9" rx="4.5"/></g>
+        <path d="M18 192c5 0 5-10 10-10s5 18 10 18 5-8 10-8" fill="none" stroke="#acccd1" stroke-width="1.5"/>
+      </svg>
+      <span class="scene-title">{{ t.gallery.analytics }} <span aria-hidden="true">↗</span></span>
+      <span class="scene-description">{{ t.gallery.analytics_text }}</span>
+    </a>
+    <a class="research-scene" href="{{ prefix | append: '/publications/#paper-misinformation' | relative_url }}">
+      <svg class="scene-art scene-trust" viewBox="0 0 360 220" aria-hidden="true" focusable="false">
+        <rect width="360" height="220" rx="10" fill="#f6f2eb"/>
+        <circle cx="32" cy="25" r="93" fill="#eee9df"/><circle cx="328" cy="205" r="92" fill="#edece1"/>
+        <g fill="none" stroke="#d6d4c3" stroke-width="1.5"><path d="m66 69 64 18M65 151l65-22M251 60l-29 29M284 139l-62-13M251 60l33 79M66 69l-1 82"/></g>
+        <path class="scene-motion trust-flow" d="m66 69 64 18M65 151l65-22M251 60l-29 29M284 139l-62-13" pathLength="1" fill="none" stroke="#9aa887" stroke-width="2"/>
+        <g fill="#fff" stroke="#d6d4c3"><circle cx="66" cy="69" r="15"/><circle cx="65" cy="151" r="12"/><circle cx="251" cy="60" r="13"/><circle cx="284" cy="139" r="17"/></g>
+        <g fill="#a9b198"><circle cx="66" cy="69" r="4"/><circle cx="65" cy="151" r="3"/><circle cx="251" cy="60" r="3"/><circle cx="284" cy="139" r="4"/></g>
+        <rect x="130" y="50" width="92" height="124" rx="9" fill="#fff" stroke="#d4d5c7"/>
+        <path d="M146 70h59M146 82h46M146 94h54" stroke="#d9dace" stroke-width="3" stroke-linecap="round"/>
+        <path class="scene-motion trust-highlight" d="M146 82h46" stroke="#a7b9a0" stroke-width="3" stroke-linecap="round"/>
+        <path d="m176 111 23 8v14c0 12-10 23-23 28-13-5-23-16-23-28v-14Z" fill="#e8efdf" stroke="#b9c9ab"/>
+        <path class="scene-motion trust-check" d="m164 134 8 8 17-18" pathLength="1" fill="none" stroke="#789465" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle class="scene-motion trust-pulse" cx="284" cy="139" r="24" fill="none" stroke="#b7c2a3"/>
+        <g fill="#c2c6af"><circle cx="97" cy="193" r="2"/><circle cx="300" cy="49" r="2.5"/></g>
+      </svg>
+      <span class="scene-title">{{ t.gallery.trust }} <span aria-hidden="true">↗</span></span>
+      <span class="scene-description">{{ t.gallery.trust_text }}</span>
+    </a>
+  </div>
+</section>
